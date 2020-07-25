@@ -16,14 +16,13 @@ const resultInfoInitialState = {
     resultImg: 'none'
 }
 
-function ContactUsForm() {
+function ContactUsForm(props) {
     const [resultInfo, dispatchResultInfo] = useReducer(resultInfoReducer, resultInfoInitialState);
     const [user, setUser] = useState({
         firstname: '',
         lastname: '',
         contactemail: '',
         contactcomments: '',
-        newsletter: false,
         change: false
     });
     const handleChange = (evt) => {
@@ -40,9 +39,6 @@ function ContactUsForm() {
             case 'contactcomments': 
                 setUser({...user, contactcomments: evt.target.value, change: true});
                 break     
-            case 'newsletter': 
-                setUser({...user, newsletter: !user.newsletter, change: true});
-                break     
             default :
         }
     }
@@ -52,34 +48,31 @@ function ContactUsForm() {
             lastname: '',
             contactemail: '',
             contactcomments: '',
-            newsletter: false,
             change: false
         });
+        if (props.reset) props.reset();
     }
     const handleSubmit = async (evt) => {
         evt.preventDefault();
         const resultText = document.querySelector('#loadingLoginText');
-        
         if (!user.contactemail) {
             resultText.innerText = "Email is required";
             dispatchResultInfo({type: 'tryAgain'});
             return;
-        }
-        
+        }  
         const contact = {
             contactid: uuid(),
             date: new Date(Date.now()),
             firstname: user.firstname,
             lastname: user.lastname,
             email: user.contactemail,
-            comments: user.contactcomments,
-            selleremail: 'tisha@findaharp.com',
-            newsletter: user.newsletter
+            comments: `FROM HARPTISHA.COM: ${user.contactcomments}`,
+            selleremail: 'tisha@findaharp.com'
         }
         try {
             // send contactUs inq
-            const res = await axios.post(`${process.env.backend}/api/v1/contactform`, contact);
-            resultText.innerText=`Contact form has been sent to findaharp.com.`;
+            const res = await axios.post(`https://findaharp-api.herokuapp.com/api/v1/contactform`, contact);
+            resultText.innerText=`Contact form has been sent to Tisha Murvihill.`;
             dispatchResultInfo({type: 'OK'});
         } catch(e) {
             resultText.innerText=`Something went wrong. Please try again or send an email to harps@findaharp.com. ${e.message}`;
@@ -93,15 +86,9 @@ function ContactUsForm() {
     }
    return (
         <>  
-            <div className='contactFormContainer'> 
-                <div className={`contactArea`}>
-                <div className={`contactText`}>    
-                    <h3>Suggestions</h3>
-                    <p>We welcome your suggestions to make our site as thorough and as easy to use as possible.</p><br></br><br></br>
-                    <h3>Other reasons to contact us</h3>
-                    <p>We are always here to answer your questions or resolve any issues with our site.</p>
-                </div>
+            <div className='contactFormContainer'>
                 <form className='contactForm'> 
+                    <h4>Contact Tisha About {props.harp}</h4>
                     <div id="loadingLogin" style={{display: resultInfo.resultContainer}}>
                         <img id='loadingLoginImg' style={{display: resultInfo.resultImg}} src='/img/spinner.gif' alt='loading spinner' />
                         <p id="loadingLoginText"></p>
@@ -161,17 +148,6 @@ function ContactUsForm() {
                             rows='6'
                         />
                     </div>   
-                    <div style={{marginBottom: '-15px', marginTop:'25px'}}>
-                        <input 
-                            id={uuid()}
-                            type='checkbox'
-                            name='newsletter'
-                            onChange={handleChange}
-                            style={{marginLeft: '0'}}
-                            checked={user.newsletter}
-                        />
-                        <label style={{marginLeft: '5px'}} name='contactcomments'>Signup for our newsletter?<br />Fun talk about site is coming your way!! </label>
-                    </div>      
                     <div className='buttons'>
                         <button
                             className='detailButton'
@@ -188,9 +164,8 @@ function ContactUsForm() {
                         </button>
                     </div>         
                 </form>
-                </div>   
-        </div> 
-        <ContactUsFormCSS />
+            </div> 
+            <ContactUsFormCSS />
         </>
     )
 }

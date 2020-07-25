@@ -37,16 +37,16 @@ export default function NavBar(props) {
                         </div>:''
                     }
                     <Link href='/'>
-                        <a onClick={props.handleNavOpen}>Starter Template</a>
+                        <a style={{textDecoration: 'none'}} onClick={props.handleNavOpen}>Harp Lessons</a>
                     </Link>
                     <Link href='/Store' as='/Store'>
-                        <a onClick={props.handleNavOpen}>Harps for Sale</a>
+                        <a style={{textDecoration: 'none'}} onClick={props.handleNavOpen}>Harps, Cds, Music for Sale</a>
                     </Link>
-                    <Link href='/Page2' as='/Page2'>
-                        <a onClick={props.handleNavOpen}>Page Two</a>
+                    <Link href='/About' as='/About'>
+                        <a style={{textDecoration: 'none'}} onClick={props.handleNavOpen}>About</a>
                     </Link>        
                     <Link href='/Contact' as='/Contact'>
-                        <a onClick={props.handleNavOpen}>Contact/About</a>
+                        <a style={{textDecoration: 'none'}} onClick={props.handleNavOpen}>Contact</a>
                     </Link>
                     
                     {/* <Link href={user&&user.firstname&&user.firstname.toUpperCase()!=='LOGIN'?'/userprofile':'/loginsignup'} as={user.firstname==='Login'?'/loginsignup':'/userprofile'}>

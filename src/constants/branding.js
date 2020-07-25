@@ -1,8 +1,11 @@
 exports.branding = {
-    mainLogoImage: 'img/yourBrandHere.png',
-    mainLogoImageAlt: 'Main Logo Image',
-    tabTitle: 'React/NextJs Starter Template',
-    additionalPageOne: 'Harps For Sale',
-    additionalPageTwo: 'Page Two',
-    additionalPageThree: 'Page Three'
+    mainLogoImage: 'img/logo.jpg',
+    mainLogoImageAlt: 'Harp Logo',
+    tabTitle: 'Harp Lessons',
+    tabSubTitle: 'with Tisha Murvihill',
+    additionalPageOne: 'Harps/CDs For Sale',
+    additionalPageTwo: 'About',
+    additionalPageTwoSub: 'About Tisha Murvihill',
+    additionalPageThree: 'Contact Us',
+    additionalPageThreeSub: 'Contact Tisha Murvihill'
 }

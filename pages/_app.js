@@ -47,6 +47,10 @@ function MyApp(props) {
     }
     return( 
         <>  
+            <Head>
+                <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" />
+                <link rel="icon" href="favicon.ico" sizes="16x16" type="image/png" /> 
+            </Head>
             <Banner />
             {/* Without Auth */}
             <NavBar mobile={windowWidth<=550} open={navOpen} handleNavOpen={handleNavOpen}/>

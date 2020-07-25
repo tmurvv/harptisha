@@ -23,7 +23,7 @@ function ContactUsFormCSS() {
                 padding: 20px;
                 padding-top: 0;
                 text-align: center;
-                max-width: 1300px;
+                max-width: 700px;
                 margin: auto;
             }
             @media only screen and (max-width: 650px) {
@@ -69,13 +69,12 @@ function ContactUsFormCSS() {
                 transform: translateY(3.5px);
             }
             .contactForm {
-                padding: 40px 20px 25px 10px;
+                padding: 10px;
                 flex: 6;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 border: 2px solid ${cssVariables.primaryColour};
-                margin-left: 10px;
                 background-color: #ffffff;
                 postion: relative;
             }
@@ -132,27 +131,7 @@ function ContactUsFormCSS() {
                 border-right: none;
                 border-bottom: 1px solid #bbbbbb;
             }
-            .detailButton {
-                margin: 25px auto;
-                background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.tertiaryColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.tertiaryColourLight} 87%);
-                padding: 5px 10px;
-                font-size: 16px;
-                border-radius: 3px;
-                outline: none;
-                border-style: none;
-                border-color: none;
-                -webkit-box-shadow: 1.5px 1.5px 1.5px 0px #929191;
-                box-shadow: 1.5px 1.5px 1.5px 0px #929191;
-            }
-            .detailButton:active {
-                box-shadow: none;
-            }
-            .detailButton-cancel {
-                background-color: #333333;
-                margin-left: 30px;
-                color: white;
-                background-image: none;
-            }
+            
             textarea {
                 background-color: transparent;
                 flex: 7.5;

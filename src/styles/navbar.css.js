@@ -6,9 +6,8 @@ function NavBarCss() {
     return (
         <style jsx="true">{`
             .navBarOuter {
-                background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.tertiaryColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.tertiaryColourLight} 87%);
+                background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.tertiaryColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.secondaryColourLight} 87%);
                 height: 40px;
-                border-bottom: 1px solid grey;
             }
             @media only screen and (max-width: 550px) {
                 .navBarOuter {
@@ -39,9 +38,9 @@ function NavBarCss() {
                 }
             }
             a {
-                font-family: 'avenir';
+                font-family: 'lato';
                 font-size: 16px;
-                text-decoration: none;
+                text-decoration: none; 
                 color: #000000;
                 opacity: .8;
                 flex: 2;
@@ -64,10 +63,10 @@ function NavBarCss() {
                 height: 35px;
             }
             .closeIcon img {
-                height: 25px;
+                height: 17px;
                 position: absolute;
-                top: 0;
-                left: 0;
+                top: 5px;
+                left: 5px;
             }
       `}</style>
     )

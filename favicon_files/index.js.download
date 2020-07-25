@@ -1,0 +1,991 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CClients%5CHarpTisha%5Charptisha%5Cpages%5Cindex.js!./":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CClients%5CHarpTisha%5Charptisha%5Cpages%5Cindex.js ***!
+  \**********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+    (window.__NEXT_P = window.__NEXT_P || []).push([
+      "/",
+      function () {
+        return __webpack_require__(/*! ./pages/index.js */ "./pages/index.js");
+      }
+    ]);
+  
+
+/***/ }),
+
+/***/ "./node_modules/react/index.js":
+/*!*******************************************************************************************!*\
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_ec7d9c0249b2ef52b74c ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_ec7d9c0249b2ef52b74c */ "dll-reference dll_ec7d9c0249b2ef52b74c"))("./node_modules/react/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/webpack/buildin/harmony-module.js":
+/*!*******************************************!*\
+  !*** (webpack)/buildin/harmony-module.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function(originalModule) {
+	if (!originalModule.webpackPolyfill) {
+		var module = Object.create(originalModule);
+		// module.parent = undefined by default
+		if (!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		Object.defineProperty(module, "exports", {
+			enumerable: true
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/webpack/buildin/module.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/module.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function(module) {
+	if (!module.webpackPolyfill) {
+		module.deprecate = function() {};
+		module.paths = [];
+		// module.parent = undefined by default
+		if (!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+
+
+/***/ }),
+
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _src_components_PageTitle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/components/PageTitle */ "./src/components/PageTitle.js");
+/* harmony import */ var _src_styles_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/styles/index.css */ "./src/styles/index.css.js");
+/* harmony import */ var _src_constants_branding__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/constants/branding */ "./src/constants/branding.js");
+/* harmony import */ var _src_constants_branding__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_src_constants_branding__WEBPACK_IMPORTED_MODULE_3__);
+var _this = undefined,
+    _jsxFileName = "D:\\Clients\\HarpTisha\\harptisha\\pages\\index.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var Home = function Home() {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
+    className: "index",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "main",
+    id: "jobs",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "main__image main__image--hands",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 21
+    }
+  }), __jsx("h1", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 21
+    }
+  }, "Harp Lessons with ", __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 43
+    }
+  }, "Tisha Murvihill")), __jsx("h3", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 21
+    }
+  }, " Have you always wanted to play the harp? Let's get started!"), __jsx("ul", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 21
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 25
+    }
+  }, "I teach pedal or lever Harp."), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 25
+    }
+  }, "Skype/Facetime Lessons available."), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 25
+    }
+  }, "I teach adults of all ages and abilities."), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 25
+    }
+  }, "Students under 16 must have passed the grade 2 RCM or equivalent in harp. "), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 25
+    }
+  }, "I am located in Cochrane (35 minutes from downtown Calgary). "), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 25
+    }
+  }, "Prices\xA0start at $45.00."), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "mailto:harp@harptisha.com",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 29
+    }
+  }, "harp@harptisha.com"), " for more info")), __jsx("div", {
+    className: "main__image main__image--laurentries",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    src: "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114546/harptisha/laurenTriesIt.jpg",
+    "data-src": "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114546/harptisha/laurenTriesIt.jpg",
+    alt: "Harp Student Lauren tries the harp.",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 25
+    }
+  })), __jsx("h4", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 21
+    }
+  }, "Qualifications"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 21
+    }
+  }, "I have a Master's degree\xA0in Music Performance from Indiana University School of Music under Distinguished Professor Susann McDonald. I have been the Principal Harpist of the ", __jsx("a", {
+    href: "https://www.calgaryphil.com",
+    target: "_blank",
+    rel: "noopener",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 107
+    }
+  }, "Calgary Philharmonic Orchestra"), " since 1995 and have been teaching privately for many years. "), __jsx("div", {
+    className: "main__image main__image--dawn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    src: "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114518/harptisha/dawnAsksQuestion.jpg",
+    "data-src": "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114518/harptisha/dawnAsksQuestion.jpg",
+    alt: "Harp Teacher Tisha Demonstrates for Lauren",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 25
+    }
+  })), __jsx("h4", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 21
+    }
+  }, "Teaching Philosophy"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 21
+    }
+  }, "I suppose the best way to describe my teaching style is relaxed and easy-going. I want the harp to be fun for you! At the same time, I want you to feel that you are progressing and accomplishing your goals. If you want me to prepare you for a career as a professional harpist, I am happy to work with you on that. However,\xA0if you simply want to play at home for yourself and your friends,\xA0we can make\xA0that happen. Email\xA0", __jsx("a", {
+    href: "mailto:harp@harptisha.com",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 49
+    }
+  }, "harp@harptisha.com"), " for more info."), __jsx("div", {
+    className: "main__collage",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "main__collage--col1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "main__image main__image--alita",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114520/harptisha/alitaHairFix.jpg",
+    "data-src": "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114520/harptisha/alitaHairFix.jpg",
+    alt: "Harp Teacher Tisha teaches Alita",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 33
+    }
+  }))), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "main__image main__image--karen",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114522/harptisha/Demonstrate_Karen_Web.jpg",
+    "data-src": "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114522/harptisha/Demonstrate_Karen_Web.jpg",
+    alt: "Harp Teacher Tisha teaches Karen",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 33
+    }
+  })), __jsx("div", {
+    className: "main__image main__image--lauren",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114521/harptisha/demoForLauren.jpg",
+    "data-src": "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114521/harptisha/demoForLauren.jpg",
+    alt: "Harp Teacher Tisha demonstrates a harp technique for Lauren",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 33
+    }
+  })), __jsx("div", {
+    className: "main__image main__image--skype",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114552/harptisha/tishaSkypeDemo.jpg",
+    "data-src": "https://res.cloudinary.com/take2tech-ca/image/upload/v1555114552/harptisha/tishaSkypeDemo.jpg",
+    alt: "Harp Teacher Tisha demostrates a harp Skype lesson",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 33
+    }
+  }), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 33
+    }
+  }, "Skype Lesson"))))), __jsx(_src_styles_index_css__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 17
+    }
+  })));
+};
+
+_c = Home;
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+var _c;
+
+$RefreshReg$(_c, "Home");
+
+;
+    var _a, _b;
+    // Legacy CSS implementations will `eval` browser code in a Node.js context
+    // to extract CSS. For backwards compatibility, we need to check we're in a
+    // browser context before continuing.
+    if (typeof self !== 'undefined' &&
+        // AMP / No-JS mode does not inject these helpers:
+        '$RefreshHelpers$' in self) {
+        var currentExports_1 = module.__proto__.exports;
+        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
+        // This cannot happen in MainTemplate because the exports mismatch between
+        // templating and execution.
+        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports_1, module.i);
+        // A module can be accepted automatically based on its exports, e.g. when
+        // it is a Refresh Boundary.
+        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports_1)) {
+            // Save the previous exports on update so we can compare the boundary
+            // signatures.
+            module.hot.dispose(function (data) {
+                data.prevExports = currentExports_1;
+            });
+            // Unconditionally accept an update to this module, we'll check if it's
+            // still a Refresh Boundary later.
+            module.hot.accept();
+            // This field is set when the previous version of this module was a
+            // Refresh Boundary, letting us know we need to check for invalidation or
+            // enqueue an update.
+            if (prevExports !== null) {
+                // A boundary can become ineligible if its exports are incompatible
+                // with the previous exports.
+                //
+                // For example, if you add/remove/change exports, we'll want to
+                // re-execute the importing modules, and force those components to
+                // re-render. Similarly, if you convert a class component to a
+                // function, we want to invalidate the boundary.
+                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports_1)) {
+                    module.hot.invalidate();
+                }
+                else {
+                    self.$RefreshHelpers$.scheduleUpdate();
+                }
+            }
+        }
+        else {
+            // Since we just executed the code for the module, it's possible that the
+            // new exports made it ineligible for being a boundary.
+            // We only care about the case when we were _previously_ a boundary,
+            // because we already accepted this update (accidental side effect).
+            var isNoLongerABoundary = prevExports !== null;
+            if (isNoLongerABoundary) {
+                module.hot.invalidate();
+            }
+        }
+    }
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/components/PageTitle.js":
+/*!*************************************!*\
+  !*** ./src/components/PageTitle.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.css */ "./src/styles/index.css.js");
+/* harmony import */ var _styles_pagetitle_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/pagetitle.css */ "./src/styles/pagetitle.css.js");
+var _jsxFileName = "D:\\Clients\\HarpTisha\\harptisha\\src\\components\\PageTitle.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+function PageTitle(_ref) {
+  var maintitle = _ref.maintitle,
+      subtitle = _ref.subtitle;
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
+    className: "mainTitle",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, __jsx("h2", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 13
+    }
+  }, maintitle), __jsx("h3", {
+    className: "subTitle",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 13
+    }
+  }, subtitle)), __jsx(_styles_pagetitle_css__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 9
+    }
+  }), __jsx(_styles_index_css__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }
+  }));
+}
+
+_c = PageTitle;
+/* harmony default export */ __webpack_exports__["default"] = (PageTitle);
+
+var _c;
+
+$RefreshReg$(_c, "PageTitle");
+
+;
+    var _a, _b;
+    // Legacy CSS implementations will `eval` browser code in a Node.js context
+    // to extract CSS. For backwards compatibility, we need to check we're in a
+    // browser context before continuing.
+    if (typeof self !== 'undefined' &&
+        // AMP / No-JS mode does not inject these helpers:
+        '$RefreshHelpers$' in self) {
+        var currentExports_1 = module.__proto__.exports;
+        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
+        // This cannot happen in MainTemplate because the exports mismatch between
+        // templating and execution.
+        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports_1, module.i);
+        // A module can be accepted automatically based on its exports, e.g. when
+        // it is a Refresh Boundary.
+        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports_1)) {
+            // Save the previous exports on update so we can compare the boundary
+            // signatures.
+            module.hot.dispose(function (data) {
+                data.prevExports = currentExports_1;
+            });
+            // Unconditionally accept an update to this module, we'll check if it's
+            // still a Refresh Boundary later.
+            module.hot.accept();
+            // This field is set when the previous version of this module was a
+            // Refresh Boundary, letting us know we need to check for invalidation or
+            // enqueue an update.
+            if (prevExports !== null) {
+                // A boundary can become ineligible if its exports are incompatible
+                // with the previous exports.
+                //
+                // For example, if you add/remove/change exports, we'll want to
+                // re-execute the importing modules, and force those components to
+                // re-render. Similarly, if you convert a class component to a
+                // function, we want to invalidate the boundary.
+                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports_1)) {
+                    module.hot.invalidate();
+                }
+                else {
+                    self.$RefreshHelpers$.scheduleUpdate();
+                }
+            }
+        }
+        else {
+            // Since we just executed the code for the module, it's possible that the
+            // new exports made it ineligible for being a boundary.
+            // We only care about the case when we were _previously_ a boundary,
+            // because we already accepted this update (accidental side effect).
+            var isNoLongerABoundary = prevExports !== null;
+            if (isNoLongerABoundary) {
+                module.hot.invalidate();
+            }
+        }
+    }
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/constants/branding.js":
+/*!***********************************!*\
+  !*** ./src/constants/branding.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {exports.branding = {
+  mainLogoImage: 'img/logo.jpg',
+  mainLogoImageAlt: 'Harp Logo',
+  tabTitle: 'Harp Lessons',
+  tabSubTitle: 'with Tisha Murvihill',
+  additionalPageOne: 'Harps/CDs For Sale',
+  additionalPageTwo: 'About',
+  additionalPageThree: 'Contact'
+};
+
+;
+    var _a, _b;
+    // Legacy CSS implementations will `eval` browser code in a Node.js context
+    // to extract CSS. For backwards compatibility, we need to check we're in a
+    // browser context before continuing.
+    if (typeof self !== 'undefined' &&
+        // AMP / No-JS mode does not inject these helpers:
+        '$RefreshHelpers$' in self) {
+        var currentExports_1 = module.__proto__.exports;
+        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
+        // This cannot happen in MainTemplate because the exports mismatch between
+        // templating and execution.
+        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports_1, module.i);
+        // A module can be accepted automatically based on its exports, e.g. when
+        // it is a Refresh Boundary.
+        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports_1)) {
+            // Save the previous exports on update so we can compare the boundary
+            // signatures.
+            module.hot.dispose(function (data) {
+                data.prevExports = currentExports_1;
+            });
+            // Unconditionally accept an update to this module, we'll check if it's
+            // still a Refresh Boundary later.
+            module.hot.accept();
+            // This field is set when the previous version of this module was a
+            // Refresh Boundary, letting us know we need to check for invalidation or
+            // enqueue an update.
+            if (prevExports !== null) {
+                // A boundary can become ineligible if its exports are incompatible
+                // with the previous exports.
+                //
+                // For example, if you add/remove/change exports, we'll want to
+                // re-execute the importing modules, and force those components to
+                // re-render. Similarly, if you convert a class component to a
+                // function, we want to invalidate the boundary.
+                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports_1)) {
+                    module.hot.invalidate();
+                }
+                else {
+                    self.$RefreshHelpers$.scheduleUpdate();
+                }
+            }
+        }
+        else {
+            // Since we just executed the code for the module, it's possible that the
+            // new exports made it ineligible for being a boundary.
+            // We only care about the case when we were _previously_ a boundary,
+            // because we already accepted this update (accidental side effect).
+            var isNoLongerABoundary = prevExports !== null;
+            if (isNoLongerABoundary) {
+                module.hot.invalidate();
+            }
+        }
+    }
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/constants/cssVariables.js":
+/*!***************************************!*\
+  !*** ./src/constants/cssVariables.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {exports.cssVariables = {
+  primaryColour: '#A49685',
+  primaryColourLight: '#DDDACC',
+  primaryColourDark: '#5F4F42',
+  primaryColourWhite: '#DDDACC',
+  secondaryColour: '#ECDFB7',
+  secondaryColourLight: '#efece4',
+  secondaryColourDark: '#3B271D',
+  tertiaryColour: '#7D7D8C',
+  tertiaryColourLight: '#A2A3AC',
+  tertiaryColourDark: '#464759'
+};
+
+;
+    var _a, _b;
+    // Legacy CSS implementations will `eval` browser code in a Node.js context
+    // to extract CSS. For backwards compatibility, we need to check we're in a
+    // browser context before continuing.
+    if (typeof self !== 'undefined' &&
+        // AMP / No-JS mode does not inject these helpers:
+        '$RefreshHelpers$' in self) {
+        var currentExports_1 = module.__proto__.exports;
+        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
+        // This cannot happen in MainTemplate because the exports mismatch between
+        // templating and execution.
+        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports_1, module.i);
+        // A module can be accepted automatically based on its exports, e.g. when
+        // it is a Refresh Boundary.
+        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports_1)) {
+            // Save the previous exports on update so we can compare the boundary
+            // signatures.
+            module.hot.dispose(function (data) {
+                data.prevExports = currentExports_1;
+            });
+            // Unconditionally accept an update to this module, we'll check if it's
+            // still a Refresh Boundary later.
+            module.hot.accept();
+            // This field is set when the previous version of this module was a
+            // Refresh Boundary, letting us know we need to check for invalidation or
+            // enqueue an update.
+            if (prevExports !== null) {
+                // A boundary can become ineligible if its exports are incompatible
+                // with the previous exports.
+                //
+                // For example, if you add/remove/change exports, we'll want to
+                // re-execute the importing modules, and force those components to
+                // re-render. Similarly, if you convert a class component to a
+                // function, we want to invalidate the boundary.
+                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports_1)) {
+                    module.hot.invalidate();
+                }
+                else {
+                    self.$RefreshHelpers$.scheduleUpdate();
+                }
+            }
+        }
+        else {
+            // Since we just executed the code for the module, it's possible that the
+            // new exports made it ineligible for being a boundary.
+            // We only care about the case when we were _previously_ a boundary,
+            // because we already accepted this update (accidental side effect).
+            var isNoLongerABoundary = prevExports !== null;
+            if (isNoLongerABoundary) {
+                module.hot.invalidate();
+            }
+        }
+    }
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/styles/index.css.js":
+/*!*********************************!*\
+  !*** ./src/styles/index.css.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _constants_cssVariables__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants/cssVariables */ "./src/constants/cssVariables.js");
+/* harmony import */ var _constants_cssVariables__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_constants_cssVariables__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "D:\\Clients\\HarpTisha\\harptisha\\src\\styles\\index.css.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+function IndexCss() {
+  return __jsx("style", {
+    jsx: "true",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 9
+    }
+  }, "\n            .index {\n                background-image: linear-gradient(to bottom, ".concat(_constants_cssVariables__WEBPACK_IMPORTED_MODULE_1__["cssVariables"].primaryColourWhite, ", #ffffff 300px);\n                margin: 0;\n                padding: 30px;\n                height: fit-content;\n                min-height: 100vh;\n            }\n            .index h2 {\n                margin-block-end:0;\n                margin-block-start:0;\n            }\n\n\n\n            .main {\n                margin: 2rem;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main {\n                  margin: 1rem;\n                }\n              }\n              .main > ul {\n                margin-top: 1rem;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main {\n                  margin: 1rem;\n                }\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main > h1 {\n                  font-size: 160%;\n                }\n              }\n              .main > h1 > span {\n                color: #7a5042;\n              }\n              .main__image > img {\n                margin: 1rem;\n              }\n              .main__collage {\n                display: flex;\n                width: 100%;\n                justify-content: space-between;\n              }\n              .main__collage--col1 {\n                width: 100%;\n              }\n              .main__image--hands {\n                width: 35%;\n                height: 415px;\n                background-image: url(\"https://res.cloudinary.com/take2tech-ca/image/upload/v1555114552/harptisha/tishaHandsAdjustColor.jpg\");\n                background-size: cover;\n                margin-top: 1rem;\n                float: right;\n                border-radius: 7px;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main__image--hands {\n                  width: 40%;\n                }\n              }\n              .main__image--laurentries > img {\n                width: 25%;\n                float: left;\n                margin-top: 2.5rem;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main__image--laurentries > img {\n                  float: none;\n                  width: 65%;\n                  margin-left: 0;\n                }\n              }\n              .main__image--dawn > img {\n                width: 25%;\n                float: right;\n                margin-top: 3rem;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main__image--dawn > img {\n                  float: none;\n                  width: 65%;\n                  margin-left: 0;\n                }\n              }\n              .main__image--alita > img {\n                width: 95%;\n                margin: 2rem 0;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main__image--alita > img {\n                  width: 90%;\n                }\n              }\n              .main__image--karen > img {\n                float: right;\n                width: 95%;\n                margin-top: 2rem;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main__image--karen > img {\n                  margin-bottom: 0.5rem;\n                  width: 90%;\n                }\n              }\n              .main__image--lauren > img {\n                float: right;\n                width: 95%;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main__image--lauren > img {\n                  margin-bottom: 0.5rem;\n                  margin-top: 0;\n                  width: 90%;\n                }\n              }\n              .main__image--skype > img {\n                width: 95%;\n                float: right;\n                margin-left: 0;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main__image--skype > img {\n                  margin-top: 0;\n                  width: 90%;\n                }\n              }\n              .main__image--skype > img > p {\n                padding-left: 5%;\n              }\n              .main h1,\n              .main h3,\n              .main h4 {\n                font-weight: 400;\n              }\n              .main h3 {\n                font-style: italic;\n              }\n              .main h4 {\n                font-size: 138%;\n                margin-top: 2rem;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .main h4 {\n                  margin-top: inherit;\n                }\n              }\n              .main ul {\n                list-style-position: inside;\n              }\n              \n              .contactArea {\n                border: 1px solid #333;\n                border-radius: 7px;\n                margin: 50px 2rem 75px;\n              }\n              @media only screen and (max-width: 37.5em) {\n                .contactArea {\n                  margin: 50px 1rem 75px;\n                }\n              }\n              .contactArea__title {\n                background-color: #f1f1f1;\n                border-radius: 7px;\n                padding: 10px;\n                text-align: center;\n                font-size: 30px;\n                letter-spacing: 1.3px;\n                font-weight: 600;\n                color: #7a5042;\n              }\n              .contactArea__text {\n                padding: 25px;\n                text-align: center;\n              }\n\n\n        "));
+}
+
+_c = IndexCss;
+/* harmony default export */ __webpack_exports__["default"] = (IndexCss);
+
+var _c;
+
+$RefreshReg$(_c, "IndexCss");
+
+;
+    var _a, _b;
+    // Legacy CSS implementations will `eval` browser code in a Node.js context
+    // to extract CSS. For backwards compatibility, we need to check we're in a
+    // browser context before continuing.
+    if (typeof self !== 'undefined' &&
+        // AMP / No-JS mode does not inject these helpers:
+        '$RefreshHelpers$' in self) {
+        var currentExports_1 = module.__proto__.exports;
+        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
+        // This cannot happen in MainTemplate because the exports mismatch between
+        // templating and execution.
+        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports_1, module.i);
+        // A module can be accepted automatically based on its exports, e.g. when
+        // it is a Refresh Boundary.
+        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports_1)) {
+            // Save the previous exports on update so we can compare the boundary
+            // signatures.
+            module.hot.dispose(function (data) {
+                data.prevExports = currentExports_1;
+            });
+            // Unconditionally accept an update to this module, we'll check if it's
+            // still a Refresh Boundary later.
+            module.hot.accept();
+            // This field is set when the previous version of this module was a
+            // Refresh Boundary, letting us know we need to check for invalidation or
+            // enqueue an update.
+            if (prevExports !== null) {
+                // A boundary can become ineligible if its exports are incompatible
+                // with the previous exports.
+                //
+                // For example, if you add/remove/change exports, we'll want to
+                // re-execute the importing modules, and force those components to
+                // re-render. Similarly, if you convert a class component to a
+                // function, we want to invalidate the boundary.
+                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports_1)) {
+                    module.hot.invalidate();
+                }
+                else {
+                    self.$RefreshHelpers$.scheduleUpdate();
+                }
+            }
+        }
+        else {
+            // Since we just executed the code for the module, it's possible that the
+            // new exports made it ineligible for being a boundary.
+            // We only care about the case when we were _previously_ a boundary,
+            // because we already accepted this update (accidental side effect).
+            var isNoLongerABoundary = prevExports !== null;
+            if (isNoLongerABoundary) {
+                module.hot.invalidate();
+            }
+        }
+    }
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./src/styles/pagetitle.css.js":
+/*!*************************************!*\
+  !*** ./src/styles/pagetitle.css.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "D:\\Clients\\HarpTisha\\harptisha\\src\\styles\\pagetitle.css.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function PageTitleCss() {
+  return __jsx("style", {
+    jsx: "true",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 9
+    }
+  }, "\n            h2 {\n                margin-block-end:0;\n                margin-block-start:0;\n            }\n            .mainTitle {\n                text-align: center;\n                margin: auto;\n                letter-spacing: 1.5px;\n                font-size: 24px\n            }\n            .subTitle {\n                width: 60%;\n                margin: auto;\n                text-align: center;\n                font-size: 12px;\n                font-style: italic;\n                color: #868686;\n                letter-spacing: 1px;\n                font-weight: 500;\n                font-size:14px       \n            }\n        ");
+}
+
+_c = PageTitleCss;
+/* harmony default export */ __webpack_exports__["default"] = (PageTitleCss);
+
+var _c;
+
+$RefreshReg$(_c, "PageTitleCss");
+
+;
+    var _a, _b;
+    // Legacy CSS implementations will `eval` browser code in a Node.js context
+    // to extract CSS. For backwards compatibility, we need to check we're in a
+    // browser context before continuing.
+    if (typeof self !== 'undefined' &&
+        // AMP / No-JS mode does not inject these helpers:
+        '$RefreshHelpers$' in self) {
+        var currentExports_1 = module.__proto__.exports;
+        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
+        // This cannot happen in MainTemplate because the exports mismatch between
+        // templating and execution.
+        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports_1, module.i);
+        // A module can be accepted automatically based on its exports, e.g. when
+        // it is a Refresh Boundary.
+        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports_1)) {
+            // Save the previous exports on update so we can compare the boundary
+            // signatures.
+            module.hot.dispose(function (data) {
+                data.prevExports = currentExports_1;
+            });
+            // Unconditionally accept an update to this module, we'll check if it's
+            // still a Refresh Boundary later.
+            module.hot.accept();
+            // This field is set when the previous version of this module was a
+            // Refresh Boundary, letting us know we need to check for invalidation or
+            // enqueue an update.
+            if (prevExports !== null) {
+                // A boundary can become ineligible if its exports are incompatible
+                // with the previous exports.
+                //
+                // For example, if you add/remove/change exports, we'll want to
+                // re-execute the importing modules, and force those components to
+                // re-render. Similarly, if you convert a class component to a
+                // function, we want to invalidate the boundary.
+                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports_1)) {
+                    module.hot.invalidate();
+                }
+                else {
+                    self.$RefreshHelpers$.scheduleUpdate();
+                }
+            }
+        }
+        else {
+            // Since we just executed the code for the module, it's possible that the
+            // new exports made it ineligible for being a boundary.
+            // We only care about the case when we were _previously_ a boundary,
+            // because we already accepted this update (accidental side effect).
+            var isNoLongerABoundary = prevExports !== null;
+            if (isNoLongerABoundary) {
+                module.hot.invalidate();
+            }
+        }
+    }
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ 2:
+/*!**************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CClients%5CHarpTisha%5Charptisha%5Cpages%5Cindex.js ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CClients%5CHarpTisha%5Charptisha%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CClients%5CHarpTisha%5Charptisha%5Cpages%5Cindex.js!./");
+
+
+/***/ }),
+
+/***/ "dll-reference dll_ec7d9c0249b2ef52b74c":
+/*!*******************************************!*\
+  !*** external "dll_ec7d9c0249b2ef52b74c" ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = dll_ec7d9c0249b2ef52b74c;
+
+/***/ })
+
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWNsaWVudC1wYWdlcy1sb2FkZXIuanM/MWQ5MiIsIndlYnBhY2s6Ly8vZGVsZWdhdGVkIC4vbm9kZV9tb2R1bGVzL3JlYWN0L2luZGV4LmpzIGZyb20gZGxsLXJlZmVyZW5jZSBkbGxfZWM3ZDljMDI0OWIyZWY1MmI3NGMiLCJ3ZWJwYWNrOi8vLyh3ZWJwYWNrKS9idWlsZGluL2hhcm1vbnktbW9kdWxlLmpzIiwid2VicGFjazovLy8od2VicGFjaykvYnVpbGRpbi9tb2R1bGUuanMiLCJ3ZWJwYWNrOi8vLy4vcGFnZXMvaW5kZXguanMiLCJ3ZWJwYWNrOi8vLy4vc3JjL2NvbXBvbmVudHMvUGFnZVRpdGxlLmpzIiwid2VicGFjazovLy8uL3NyYy9jb25zdGFudHMvYnJhbmRpbmcuanMiLCJ3ZWJwYWNrOi8vLy4vc3JjL2NvbnN0YW50cy9jc3NWYXJpYWJsZXMuanMiLCJ3ZWJwYWNrOi8vLy4vc3JjL3N0eWxlcy9pbmRleC5jc3MuanMiLCJ3ZWJwYWNrOi8vLy4vc3JjL3N0eWxlcy9wYWdldGl0bGUuY3NzLmpzIiwid2VicGFjazovLy9leHRlcm5hbCBcImRsbF9lYzdkOWMwMjQ5YjJlZjUyYjc0Y1wiIl0sIm5hbWVzIjpbIkhvbWUiLCJQYWdlVGl0bGUiLCJtYWludGl0bGUiLCJzdWJ0aXRsZSIsImV4cG9ydHMiLCJicmFuZGluZyIsIm1haW5Mb2dvSW1hZ2UiLCJtYWluTG9nb0ltYWdlQWx0IiwidGFiVGl0bGUiLCJ0YWJTdWJUaXRsZSIsImFkZGl0aW9uYWxQYWdlT25lIiwiYWRkaXRpb25hbFBhZ2VUd28iLCJhZGRpdGlvbmFsUGFnZVRocmVlIiwiY3NzVmFyaWFibGVzIiwicHJpbWFyeUNvbG91ciIsInByaW1hcnlDb2xvdXJMaWdodCIsInByaW1hcnlDb2xvdXJEYXJrIiwicHJpbWFyeUNvbG91cldoaXRlIiwic2Vjb25kYXJ5Q29sb3VyIiwic2Vjb25kYXJ5Q29sb3VyTGlnaHQiLCJzZWNvbmRhcnlDb2xvdXJEYXJrIiwidGVydGlhcnlDb2xvdXIiLCJ0ZXJ0aWFyeUNvbG91ckxpZ2h0IiwidGVydGlhcnlDb2xvdXJEYXJrIiwiSW5kZXhDc3MiLCJQYWdlVGl0bGVDc3MiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFDQTtBQUNBO0FBQ0E7QUFDQSxlQUFlLG1CQUFPLENBQUMsMENBQW9EO0FBQzNFO0FBQ0E7Ozs7Ozs7Ozs7OztBQ05BLGdLOzs7Ozs7Ozs7OztBQ0FBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsR0FBRztBQUNIO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxHQUFHO0FBQ0g7QUFDQTtBQUNBLEdBQUc7QUFDSDtBQUNBO0FBQ0E7QUFDQTs7Ozs7Ozs7Ozs7O0FDdkJBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxHQUFHO0FBQ0g7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEdBQUc7QUFDSDtBQUNBO0FBQ0E7QUFDQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQ3JCQTtBQUNBO0FBQ0E7O0FBRUEsSUFBTUEsSUFBSSxHQUFHLFNBQVBBLElBQU8sR0FBTTtBQUNmLFNBQ0ksbUVBQ0k7QUFBSyxhQUFTLEVBQUMsT0FBZjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEtBQ0k7QUFBSyxhQUFTLEVBQUMsTUFBZjtBQUFzQixNQUFFLEVBQUMsTUFBekI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxLQUNJO0FBQUssYUFBUyxFQUFDLGdDQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsSUFESixFQUlJO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsMkJBQXNCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsdUJBQXRCLENBSkosRUFN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Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUM5TEE7O0FBRUEsU0FBU0MsWUFBVCxHQUF3QjtBQUNwQixTQUNJO0FBQU8sT0FBRyxFQUFDLE1BQVg7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxzcEJBREo7QUEwQkg7O0tBM0JRQSxZO0FBNkJNQSwyRUFBZjs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FDL0JBLDBDIiwiZmlsZSI6InN0YXRpY1xcZGV2ZWxvcG1lbnRcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuICAgICh3aW5kb3cuX19ORVhUX1AgPSB3aW5kb3cuX19ORVhUX1AgfHwgW10pLnB1c2goW1xuICAgICAgXCIvXCIsXG4gICAgICBmdW5jdGlvbiAoKSB7XG4gICAgICAgIHJldHVybiByZXF1aXJlKFwiRDpcXFxcQ2xpZW50c1xcXFxIYXJwVGlzaGFcXFxcaGFycHRpc2hhXFxcXHBhZ2VzXFxcXGluZGV4LmpzXCIpO1xuICAgICAgfVxuICAgIF0pO1xuICAiLCJtb2R1bGUuZXhwb3J0cyA9IChfX3dlYnBhY2tfcmVxdWlyZV9fKC8qISBkbGwtcmVmZXJlbmNlIGRsbF9lYzdkOWMwMjQ5YjJlZjUyYjc0YyAqLyBcImRsbC1yZWZlcmVuY2UgZGxsX2VjN2Q5YzAyNDliMmVmNTJiNzRjXCIpKShcIi4vbm9kZV9tb2R1bGVzL3JlYWN0L2luZGV4LmpzXCIpOyIsIm1vZHVsZS5leHBvcnRzID0gZnVuY3Rpb24ob3JpZ2luYWxNb2R1bGUpIHtcblx0aWYgKCFvcmlnaW5hbE1vZHVsZS53ZWJwYWNrUG9seWZpbGwpIHtcblx0XHR2YXIgbW9kdWxlID0gT2JqZWN0LmNyZWF0ZShvcmlnaW5hbE1vZHVsZSk7XG5cdFx0Ly8gbW9kdWxlLnBhcmVudCA9IHVuZGVmaW5lZCBieSBkZWZhdWx0XG5cdFx0aWYgKCFtb2R1bGUuY2hpbGRyZW4pIG1vZHVsZS5jaGlsZHJlbiA9IFtdO1xuXHRcdE9iamVjdC5kZWZpbmVQcm9wZXJ0eShtb2R1bGUsIFwibG9hZGVkXCIsIHtcblx0XHRcdGVudW1lcmFibGU6IHRydWUsXG5cdFx0XHRnZXQ6IGZ1bmN0aW9uKCkge1xuXHRcdFx0XHRyZXR1cm4gbW9kdWxlLmw7XG5cdFx0XHR9XG5cdFx0fSk7XG5cdFx0T2JqZWN0LmRlZmluZVByb3BlcnR5KG1vZHVsZSwgXCJpZFwiLCB7XG5cdFx0XHRlbnVtZXJhYmxlOiB0cnVlLFxuXHRcdFx0Z2V0OiBmdW5jdGlvbigpIHtcblx0XHRcdFx0cmV0dXJuIG1vZHVsZS5pO1xuXHRcdFx0fVxuXHRcdH0pO1xuXHRcdE9iamVjdC5kZWZpbmVQcm9wZXJ0eShtb2R1bGUsIFwiZXhwb3J0c1wiLCB7XG5cdFx0XHRlbnVtZXJhYmxlOiB0cnVlXG5cdFx0fSk7XG5cdFx0bW9kdWxlLndlYnBhY2tQb2x5ZmlsbCA9IDE7XG5cdH1cblx0cmV0dXJuIG1vZHVsZTtcbn07XG4iLCJtb2R1bGUuZXhwb3J0cyA9IGZ1bmN0aW9uKG1vZHVsZSkge1xuXHRpZiAoIW1vZHVsZS53ZWJwYWNrUG9seWZpbGwpIHtcblx0XHRtb2R1bGUuZGVwcmVjYXRlID0gZnVuY3Rpb24oKSB7fTtcblx0XHRtb2R1bGUucGF0aHMgPSBbXTtcblx0XHQvLyBtb2R1bGUucGFyZW50ID0gdW5kZWZpbmVkIGJ5IGRlZmF1bHRcblx0XHRpZiAoIW1vZHVsZS5jaGlsZHJlbikgbW9kdWxlLmNoaWxkcmVuID0gW107XG5cdFx0T2JqZWN0LmRlZmluZVByb3BlcnR5KG1vZHVsZSwgXCJsb2FkZWRcIiwge1xuXHRcdFx0ZW51bWVyYWJsZTogdHJ1ZSxcblx0XHRcdGdldDogZnVuY3Rpb24oKSB7XG5cdFx0XHRcdHJldHVybiBtb2R1bGUubDtcblx0XHRcdH1cblx0XHR9KTtcblx0XHRPYmplY3QuZGVmaW5lUHJvcGVydHkobW9kdWxlLCBcImlkXCIsIHtcblx0XHRcdGVudW1lcmFibGU6IHRydWUsXG5cdFx0XHRnZXQ6IGZ1bmN0aW9uKCkge1xuXHRcdFx0XHRyZXR1cm4gbW9kdWxlLmk7XG5cdFx0XHR9XG5cdFx0fSk7XG5cdFx0bW9kdWxlLndlYnBhY2tQb2x5ZmlsbCA9IDE7XG5cdH1cblx0cmV0dXJuIG1vZHVsZTtcbn07XG4iLCJpbXBvcnQgUGFnZVRpdGxlIGZyb20gJy4uL3NyYy9jb21wb25lbnRzL1BhZ2VUaXRsZSc7XHJcbmltcG9ydCBJbmRleENzcyBmcm9tICcuLi9zcmMvc3R5bGVzL2luZGV4LmNzcyc7XHJcbmltcG9ydCB7IGJyYW5kaW5nIH0gZnJvbSAnLi4vc3JjL2NvbnN0YW50cy9icmFuZGluZyc7XHJcblxyXG5jb25zdCBIb21lID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8PiAgIFxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0naW5kZXgnPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWluXCIgaWQ9XCJqb2JzXCI+IFxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9faW1hZ2UgbWFpbl9faW1hZ2UtLWhhbmRzXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHsvKiA8IS0tIDxpbWcgc3JjPVwiaW1nL3Rpc2hhSGFuZHMuanBnXCIgYWx0PVwiSW1hZ2UgVGlzaGEncyBUZWNobmlxdWVcIj4gLS0+ICovfVxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICAgIDxoMT5IYXJwIExlc3NvbnMgd2l0aCA8c3Bhbj5UaXNoYSBNdXJ2aWhpbGw8L3NwYW4+PC9oMT5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPGgzPiBIYXZlIHlvdSBhbHdheXMgd2FudGVkIHRvIHBsYXkgdGhlIGhhcnA/IExldCdzIGdldCBzdGFydGVkITwvaDM+XHJcbiAgICAgICAgICAgICAgICAgICAgPHVsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8bGk+SSB0ZWFjaCBwZWRhbCBvciBsZXZlciBIYXJwLjwvbGk+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT5Ta3lwZS9GYWNldGltZSBMZXNzb25zIGF2YWlsYWJsZS48L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8bGk+SSB0ZWFjaCBhZHVsdHMgb2YgYWxsIGFnZXMgYW5kIGFiaWxpdGllcy48L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8bGk+U3R1ZGVudHMgdW5kZXIgMTYgbXVzdCBoYXZlIHBhc3NlZCB0aGUgZ3JhZGUgMiBSQ00gb3IgZXF1aXZhbGVudCBpbiBoYXJwLiA8L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8bGk+SSBhbSBsb2NhdGVkIGluIENvY2hyYW5lICgzNSBtaW51dGVzIGZyb20gZG93bnRvd24gQ2FsZ2FyeSkuIDwvbGk+ICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT5QcmljZXPCoHN0YXJ0IGF0ICQ0NS4wMC48L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj1cIm1haWx0bzpoYXJwQGhhcnB0aXNoYS5jb21cIj5oYXJwQGhhcnB0aXNoYS5jb208L2E+IGZvciBtb3JlIGluZm88L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvdWw+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWluX19pbWFnZSBtYWluX19pbWFnZS0tbGF1cmVudHJpZXNcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9XCJodHRwczovL3Jlcy5jbG91ZGluYXJ5LmNvbS90YWtlMnRlY2gtY2EvaW1hZ2UvdXBsb2FkL3YxNTU1MTE0NTQ2L2hhcnB0aXNoYS9sYXVyZW5Ucmllc0l0LmpwZ1wiIGRhdGEtc3JjPSBcImh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL3Rha2UydGVjaC1jYS9pbWFnZS91cGxvYWQvdjE1NTUxMTQ1NDYvaGFycHRpc2hhL2xhdXJlblRyaWVzSXQuanBnXCIgYWx0PVwiSGFycCBTdHVkZW50IExhdXJlbiB0cmllcyB0aGUgaGFycC5cIi8+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDxoND5RdWFsaWZpY2F0aW9uczwvaDQ+XHJcbiAgICAgICAgICAgICAgICAgICAgPHA+SSBoYXZlIGEgTWFzdGVyJ3MgZGVncmVlwqBpbiBNdXNpYyBQZXJmb3JtYW5jZSBmcm9tIEluZGlhbmEgVW5pdmVyc2l0eSBTY2hvb2wgb2YgTXVzaWMgdW5kZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAgRGlzdGluZ3Vpc2hlZCBQcm9mZXNzb3IgU3VzYW5uIE1jRG9uYWxkLiBJIGhhdmUgYmVlbiB0aGUgUHJpbmNpcGFsIEhhcnBpc3Qgb2YgdGhlIDxhIGhyZWY9XCJodHRwczovL3d3dy5jYWxnYXJ5cGhpbC5jb21cIiB0YXJnZXQ9XCJfYmxhbmtcIiByZWw9XCJub29wZW5lclwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2FsZ2FyeSBQaGlsaGFybW9uaWNcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIE9yY2hlc3RyYVxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L2E+IHNpbmNlIDE5OTUgYW5kIGhhdmUgYmVlbiB0ZWFjaGluZyBwcml2YXRlbHkgZm9yIG1hbnkgeWVhcnMuIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fX2ltYWdlIG1haW5fX2ltYWdlLS1kYXduXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vdGFrZTJ0ZWNoLWNhL2ltYWdlL3VwbG9hZC92MTU1NTExNDUxOC9oYXJwdGlzaGEvZGF3bkFza3NRdWVzdGlvbi5qcGdcIiBkYXRhLXNyYz1cImh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL3Rha2UydGVjaC1jYS9pbWFnZS91cGxvYWQvdjE1NTUxMTQ1MTgvaGFycHRpc2hhL2Rhd25Bc2tzUXVlc3Rpb24uanBnXCIgYWx0PVwiSGFycCBUZWFjaGVyIFRpc2hhIERlbW9uc3RyYXRlcyBmb3IgTGF1cmVuXCIvPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDxoND5UZWFjaGluZyBQaGlsb3NvcGh5PC9oND5cclxuICAgICAgICAgICAgICAgICAgICA8cD5JIHN1cHBvc2UgdGhlIGJlc3Qgd2F5IHRvIGRlc2NyaWJlIG15IHRlYWNoaW5nIHN0eWxlIGlzIHJlbGF4ZWQgYW5kIGVhc3ktZ29pbmcuIEkgd2FudCB0aGUgaGFycCB0byBiZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBmdW4gZm9yIHlvdSEgQXQgdGhlIHNhbWUgdGltZSwgSSB3YW50IHlvdSB0byBmZWVsIHRoYXQgeW91IGFyZSBwcm9ncmVzc2luZyBhbmQgYWNjb21wbGlzaGluZyB5b3VyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdvYWxzLiBJZiB5b3Ugd2FudCBtZSB0byBwcmVwYXJlIHlvdSBmb3IgYSBjYXJlZXIgYXMgYSBwcm9mZXNzaW9uYWwgaGFycGlzdCwgSSBhbSBoYXBweSB0byB3b3JrIHdpdGhcclxuICAgICAgICAgICAgICAgICAgICAgICAgeW91IG9uIHRoYXQuIEhvd2V2ZXIswqBpZiB5b3Ugc2ltcGx5IHdhbnQgdG8gcGxheSBhdCBob21lIGZvciB5b3Vyc2VsZiBhbmQgeW91ciBmcmllbmRzLMKgd2UgY2FuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1ha2XCoHRoYXQgaGFwcGVuLiBFbWFpbMKgPGEgaHJlZj1cIm1haWx0bzpoYXJwQGhhcnB0aXNoYS5jb21cIj5oYXJwQGhhcnB0aXNoYS5jb208L2E+IGZvciBtb3JlIGluZm8uPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9fY29sbGFnZVwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fX2NvbGxhZ2UtLWNvbDFcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9faW1hZ2UgbWFpbl9faW1hZ2UtLWFsaXRhXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9XCJodHRwczovL3Jlcy5jbG91ZGluYXJ5LmNvbS90YWtlMnRlY2gtY2EvaW1hZ2UvdXBsb2FkL3YxNTU1MTE0NTIwL2hhcnB0aXNoYS9hbGl0YUhhaXJGaXguanBnXCIgZGF0YS1zcmM9XCJodHRwczovL3Jlcy5jbG91ZGluYXJ5LmNvbS90YWtlMnRlY2gtY2EvaW1hZ2UvdXBsb2FkL3YxNTU1MTE0NTIwL2hhcnB0aXNoYS9hbGl0YUhhaXJGaXguanBnXCIgYWx0PVwiSGFycCBUZWFjaGVyIFRpc2hhIHRlYWNoZXMgQWxpdGFcIiAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWluX19pbWFnZSBtYWluX19pbWFnZS0ta2FyZW5cIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz1cImh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL3Rha2UydGVjaC1jYS9pbWFnZS91cGxvYWQvdjE1NTUxMTQ1MjIvaGFycHRpc2hhL0RlbW9uc3RyYXRlX0thcmVuX1dlYi5qcGdcIiBkYXRhLXNyYz1cImh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL3Rha2UydGVjaC1jYS9pbWFnZS91cGxvYWQvdjE1NTUxMTQ1MjIvaGFycHRpc2hhL0RlbW9uc3RyYXRlX0thcmVuX1dlYi5qcGdcIiBhbHQ9XCJIYXJwIFRlYWNoZXIgVGlzaGEgdGVhY2hlcyBLYXJlblwiIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9faW1hZ2UgbWFpbl9faW1hZ2UtLWxhdXJlblwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vdGFrZTJ0ZWNoLWNhL2ltYWdlL3VwbG9hZC92MTU1NTExNDUyMS9oYXJwdGlzaGEvZGVtb0ZvckxhdXJlbi5qcGdcIiBkYXRhLXNyYz1cImh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL3Rha2UydGVjaC1jYS9pbWFnZS91cGxvYWQvdjE1NTUxMTQ1MjEvaGFycHRpc2hhL2RlbW9Gb3JMYXVyZW4uanBnXCIgYWx0PVwiSGFycCBUZWFjaGVyIFRpc2hhIGRlbW9uc3RyYXRlcyBhIGhhcnAgdGVjaG5pcXVlIGZvciBMYXVyZW5cIiAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5fX2ltYWdlIG1haW5fX2ltYWdlLS1za3lwZVwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vdGFrZTJ0ZWNoLWNhL2ltYWdlL3VwbG9hZC92MTU1NTExNDU1Mi9oYXJwdGlzaGEvdGlzaGFTa3lwZURlbW8uanBnXCIgZGF0YS1zcmM9XCJodHRwczovL3Jlcy5jbG91ZGluYXJ5LmNvbS90YWtlMnRlY2gtY2EvaW1hZ2UvdXBsb2FkL3YxNTU1MTE0NTUyL2hhcnB0aXNoYS90aXNoYVNreXBlRGVtby5qcGdcIiBhbHQ9XCJIYXJwIFRlYWNoZXIgVGlzaGEgZGVtb3N0cmF0ZXMgYSBoYXJwIFNreXBlIGxlc3NvblwiIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+U2t5cGUgTGVzc29uPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICA8SW5kZXhDc3MgLz5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEhvbWVcclxuIiwiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuaW1wb3J0IEluZGV4Q3NzIGZyb20gJy4uL3N0eWxlcy9pbmRleC5jc3MnO1xyXG5pbXBvcnQgUGFnZVRpdGxlQ3NzIGZyb20gJy4uL3N0eWxlcy9wYWdldGl0bGUuY3NzJztcclxuXHJcbmZ1bmN0aW9uIFBhZ2VUaXRsZSh7IG1haW50aXRsZSwgc3VidGl0bGUgfSkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8PlxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPSdtYWluVGl0bGUnPlxyXG4gICAgICAgICAgICA8aDI+e21haW50aXRsZX08L2gyPlxyXG4gICAgICAgICAgICA8aDMgY2xhc3NOYW1lPVwic3ViVGl0bGVcIj57c3VidGl0bGV9PC9oMz5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8UGFnZVRpdGxlQ3NzIC8+XHJcbiAgICAgICAgPEluZGV4Q3NzIC8+XHJcbiAgICAgICAgPC8+XHJcbiAgICApXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IFBhZ2VUaXRsZTtcclxuIiwiZXhwb3J0cy5icmFuZGluZyA9IHtcclxuICAgIG1haW5Mb2dvSW1hZ2U6ICdpbWcvbG9nby5qcGcnLFxyXG4gICAgbWFpbkxvZ29JbWFnZUFsdDogJ0hhcnAgTG9nbycsXHJcbiAgICB0YWJUaXRsZTogJ0hhcnAgTGVzc29ucycsXHJcbiAgICB0YWJTdWJUaXRsZTogJ3dpdGggVGlzaGEgTXVydmloaWxsJyxcclxuICAgIGFkZGl0aW9uYWxQYWdlT25lOiAnSGFycHMvQ0RzIEZvciBTYWxlJyxcclxuICAgIGFkZGl0aW9uYWxQYWdlVHdvOiAnQWJvdXQnLFxyXG4gICAgYWRkaXRpb25hbFBhZ2VUaHJlZTogJ0NvbnRhY3QnXHJcbn0iLCJleHBvcnRzLmNzc1ZhcmlhYmxlcyA9IHtcclxuICAgIHByaW1hcnlDb2xvdXI6ICcjQTQ5Njg1JyxcclxuICAgIHByaW1hcnlDb2xvdXJMaWdodDogJyNERERBQ0MnLFxyXG4gICAgcHJpbWFyeUNvbG91ckRhcms6ICcjNUY0RjQyJyxcclxuICAgIHByaW1hcnlDb2xvdXJXaGl0ZTogJyNERERBQ0MnLFxyXG4gICAgc2Vjb25kYXJ5Q29sb3VyOiAnI0VDREZCNycsXHJcbiAgICBzZWNvbmRhcnlDb2xvdXJMaWdodDogJyNlZmVjZTQnLFxyXG4gICAgc2Vjb25kYXJ5Q29sb3VyRGFyazogJyMzQjI3MUQnLFxyXG4gICAgdGVydGlhcnlDb2xvdXI6ICcjN0Q3RDhDJyxcclxuICAgIHRlcnRpYXJ5Q29sb3VyTGlnaHQ6ICcjQTJBM0FDJyxcclxuICAgIHRlcnRpYXJ5Q29sb3VyRGFyazogJyM0NjQ3NTknLFxyXG4gICAgXHJcbn0iLCJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgeyBjc3NWYXJpYWJsZXMgfSBmcm9tICcuLi9jb25zdGFudHMvY3NzVmFyaWFibGVzJztcclxuXHJcbmZ1bmN0aW9uIEluZGV4Q3NzKCkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8c3R5bGUganN4PVwidHJ1ZVwiPntgXHJcbiAgICAgICAgICAgIC5pbmRleCB7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQodG8gYm90dG9tLCAke2Nzc1ZhcmlhYmxlcy5wcmltYXJ5Q29sb3VyV2hpdGV9LCAjZmZmZmZmIDMwMHB4KTtcclxuICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDMwcHg7XHJcbiAgICAgICAgICAgICAgICBoZWlnaHQ6IGZpdC1jb250ZW50O1xyXG4gICAgICAgICAgICAgICAgbWluLWhlaWdodDogMTAwdmg7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgLmluZGV4IGgyIHtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1ibG9jay1lbmQ6MDtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1ibG9jay1zdGFydDowO1xyXG4gICAgICAgICAgICB9XHJcblxyXG5cclxuXHJcbiAgICAgICAgICAgIC5tYWluIHtcclxuICAgICAgICAgICAgICAgIG1hcmdpbjogMnJlbTtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAzNy41ZW0pIHtcclxuICAgICAgICAgICAgICAgIC5tYWluIHtcclxuICAgICAgICAgICAgICAgICAgbWFyZ2luOiAxcmVtO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAubWFpbiA+IHVsIHtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDFyZW07XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogMzcuNWVtKSB7XHJcbiAgICAgICAgICAgICAgICAubWFpbiB7XHJcbiAgICAgICAgICAgICAgICAgIG1hcmdpbjogMXJlbTtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAzNy41ZW0pIHtcclxuICAgICAgICAgICAgICAgIC5tYWluID4gaDEge1xyXG4gICAgICAgICAgICAgICAgICBmb250LXNpemU6IDE2MCU7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5tYWluID4gaDEgPiBzcGFuIHtcclxuICAgICAgICAgICAgICAgIGNvbG9yOiAjN2E1MDQyO1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAubWFpbl9faW1hZ2UgPiBpbWcge1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luOiAxcmVtO1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAubWFpbl9fY29sbGFnZSB7XHJcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5tYWluX19jb2xsYWdlLS1jb2wxIHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAubWFpbl9faW1hZ2UtLWhhbmRzIHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAzNSU7XHJcbiAgICAgICAgICAgICAgICBoZWlnaHQ6IDQxNXB4O1xyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vdGFrZTJ0ZWNoLWNhL2ltYWdlL3VwbG9hZC92MTU1NTExNDU1Mi9oYXJwdGlzaGEvdGlzaGFIYW5kc0FkanVzdENvbG9yLmpwZ1wiKTtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiAxcmVtO1xyXG4gICAgICAgICAgICAgICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogN3B4O1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDM3LjVlbSkge1xyXG4gICAgICAgICAgICAgICAgLm1haW5fX2ltYWdlLS1oYW5kcyB7XHJcbiAgICAgICAgICAgICAgICAgIHdpZHRoOiA0MCU7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5tYWluX19pbWFnZS0tbGF1cmVudHJpZXMgPiBpbWcge1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDI1JTtcclxuICAgICAgICAgICAgICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogMi41cmVtO1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDM3LjVlbSkge1xyXG4gICAgICAgICAgICAgICAgLm1haW5fX2ltYWdlLS1sYXVyZW50cmllcyA+IGltZyB7XHJcbiAgICAgICAgICAgICAgICAgIGZsb2F0OiBub25lO1xyXG4gICAgICAgICAgICAgICAgICB3aWR0aDogNjUlO1xyXG4gICAgICAgICAgICAgICAgICBtYXJnaW4tbGVmdDogMDtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgLm1haW5fX2ltYWdlLS1kYXduID4gaW1nIHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAyNSU7XHJcbiAgICAgICAgICAgICAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiAzcmVtO1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDM3LjVlbSkge1xyXG4gICAgICAgICAgICAgICAgLm1haW5fX2ltYWdlLS1kYXduID4gaW1nIHtcclxuICAgICAgICAgICAgICAgICAgZmxvYXQ6IG5vbmU7XHJcbiAgICAgICAgICAgICAgICAgIHdpZHRoOiA2NSU7XHJcbiAgICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiAwO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAubWFpbl9faW1hZ2UtLWFsaXRhID4gaW1nIHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiA5NSU7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW46IDJyZW0gMDtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAzNy41ZW0pIHtcclxuICAgICAgICAgICAgICAgIC5tYWluX19pbWFnZS0tYWxpdGEgPiBpbWcge1xyXG4gICAgICAgICAgICAgICAgICB3aWR0aDogOTAlO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAubWFpbl9faW1hZ2UtLWthcmVuID4gaW1nIHtcclxuICAgICAgICAgICAgICAgIGZsb2F0OiByaWdodDtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiA5NSU7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiAycmVtO1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDM3LjVlbSkge1xyXG4gICAgICAgICAgICAgICAgLm1haW5fX2ltYWdlLS1rYXJlbiA+IGltZyB7XHJcbiAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDAuNXJlbTtcclxuICAgICAgICAgICAgICAgICAgd2lkdGg6IDkwJTtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgLm1haW5fX2ltYWdlLS1sYXVyZW4gPiBpbWcge1xyXG4gICAgICAgICAgICAgICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDk1JTtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAzNy41ZW0pIHtcclxuICAgICAgICAgICAgICAgIC5tYWluX19pbWFnZS0tbGF1cmVuID4gaW1nIHtcclxuICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMC41cmVtO1xyXG4gICAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiAwO1xyXG4gICAgICAgICAgICAgICAgICB3aWR0aDogOTAlO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAubWFpbl9faW1hZ2UtLXNreXBlID4gaW1nIHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiA5NSU7XHJcbiAgICAgICAgICAgICAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tbGVmdDogMDtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAzNy41ZW0pIHtcclxuICAgICAgICAgICAgICAgIC5tYWluX19pbWFnZS0tc2t5cGUgPiBpbWcge1xyXG4gICAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiAwO1xyXG4gICAgICAgICAgICAgICAgICB3aWR0aDogOTAlO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAubWFpbl9faW1hZ2UtLXNreXBlID4gaW1nID4gcCB7XHJcbiAgICAgICAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDUlO1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAubWFpbiBoMSxcclxuICAgICAgICAgICAgICAubWFpbiBoMyxcclxuICAgICAgICAgICAgICAubWFpbiBoNCB7XHJcbiAgICAgICAgICAgICAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAubWFpbiBoMyB7XHJcbiAgICAgICAgICAgICAgICBmb250LXN0eWxlOiBpdGFsaWM7XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5tYWluIGg0IHtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTM4JTtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDJyZW07XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogMzcuNWVtKSB7XHJcbiAgICAgICAgICAgICAgICAubWFpbiBoNCB7XHJcbiAgICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IGluaGVyaXQ7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgIC5tYWluIHVsIHtcclxuICAgICAgICAgICAgICAgIGxpc3Qtc3R5bGUtcG9zaXRpb246IGluc2lkZTtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgLmNvbnRhY3RBcmVhIHtcclxuICAgICAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICMzMzM7XHJcbiAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiA3cHg7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW46IDUwcHggMnJlbSA3NXB4O1xyXG4gICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDM3LjVlbSkge1xyXG4gICAgICAgICAgICAgICAgLmNvbnRhY3RBcmVhIHtcclxuICAgICAgICAgICAgICAgICAgbWFyZ2luOiA1MHB4IDFyZW0gNzVweDtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgLmNvbnRhY3RBcmVhX190aXRsZSB7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjFmMWYxO1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogN3B4O1xyXG4gICAgICAgICAgICAgICAgcGFkZGluZzogMTBweDtcclxuICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMzBweDtcclxuICAgICAgICAgICAgICAgIGxldHRlci1zcGFjaW5nOiAxLjNweDtcclxuICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjogIzdhNTA0MjtcclxuICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgLmNvbnRhY3RBcmVhX190ZXh0IHtcclxuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDI1cHg7XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgICAgfVxyXG5cclxuXHJcbiAgICAgICAgYH1cclxuICAgIDwvc3R5bGU+XHJcbiAgICApXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEluZGV4Q3NzO1xyXG4iLCJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5cclxuZnVuY3Rpb24gUGFnZVRpdGxlQ3NzKCkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8c3R5bGUganN4PVwidHJ1ZVwiPntgXHJcbiAgICAgICAgICAgIGgyIHtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1ibG9jay1lbmQ6MDtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1ibG9jay1zdGFydDowO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIC5tYWluVGl0bGUge1xyXG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgICAgICAgICAgICAgbGV0dGVyLXNwYWNpbmc6IDEuNXB4O1xyXG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAyNHB4XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgLnN1YlRpdGxlIHtcclxuICAgICAgICAgICAgICAgIHdpZHRoOiA2MCU7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW46IGF1dG87XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgICAgICBmb250LXNpemU6IDEycHg7XHJcbiAgICAgICAgICAgICAgICBmb250LXN0eWxlOiBpdGFsaWM7XHJcbiAgICAgICAgICAgICAgICBjb2xvcjogIzg2ODY4NjtcclxuICAgICAgICAgICAgICAgIGxldHRlci1zcGFjaW5nOiAxcHg7XHJcbiAgICAgICAgICAgICAgICBmb250LXdlaWdodDogNTAwO1xyXG4gICAgICAgICAgICAgICAgZm9udC1zaXplOjE0cHggICAgICAgXHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfVxyXG4gICAgPC9zdHlsZT5cclxuICAgIClcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgUGFnZVRpdGxlQ3NzO1xyXG4iLCJtb2R1bGUuZXhwb3J0cyA9IGRsbF9lYzdkOWMwMjQ5YjJlZjUyYjc0YzsiXSwic291cmNlUm9vdCI6IiJ9

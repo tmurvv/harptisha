@@ -1,13 +1,13 @@
 exports.cssVariables = {
-    primaryColour: '#0C968F',
-    primaryColourLight: '#4EB5B1',
-    primaryColourDark: '#5D5B5B',
-    primaryColourWhite: '#e8faf9',
-    secondaryColour: '#F7AA14',
-    secondaryColourLight: '#FFCE6E',
-    secondaryColourDark: '#9C6700',
-    tertiaryColour: '#F5141A',
-    tertiaryColourLight: '#FD6D71',
-    tertiaryColourDark: '#9A0004',
+    primaryColour: '#A49685',
+    primaryColourLight: '#DDDACC',
+    primaryColourDark: '#5F4F42',
+    primaryColourWhite: '#DDDACC',
+    secondaryColour: '#ECDFB7',
+    secondaryColourLight: '#efece4',
+    secondaryColourDark: '#3B271D',
+    tertiaryColour: '#7D7D8C',
+    tertiaryColourLight: '#cacad3',
+    tertiaryColourDark: '#464759',
     
 }

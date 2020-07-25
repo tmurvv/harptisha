@@ -6,6 +6,8 @@ import Head from 'next/head';
 import PageTitle from '../src/components/PageTitle';
 import ContactUsForm from '../src/components/ContactUsForm';
 import ContactCSS from '../src/styles/contact.css';
+import { cssVariables } from '../src/constants/cssVariables';
+import { branding } from '../src/constants/branding';
 
 function Contact() {
     return (
@@ -15,16 +17,12 @@ function Contact() {
             <meta name="Description" content="Contact Us -- Lever Harps, Pedal Harps, Wire Harps, Celtic Harps, Irish Harps, Folk Harps" key="title" />
         </Head>
         <div className='contactContainer'>
-            <PageTitle maintitle='Contact Us' subtitle='We want to hear from you!' />
+            <PageTitle maintitle={branding.additionalPageThree} subtitle={branding.additionalPageThreeSub} />
             <div>
                 <ContactUsForm handleCloseContact={() => console.log('')} />
             </div>
             <div className='contactDivider'>
                 <hr /> 
-            </div>          
-            <div className={`contactItem about`}>
-                <h2>About us</h2>
-                <p style={{textAlign: 'center'}}>About us coming soon!!</p>                       
             </div>
             <ContactCSS />
         </div>

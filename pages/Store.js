@@ -16,6 +16,7 @@ const Store = (props) => {
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
             <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="NjgzYTM5MDUtNTQwYy00YmJmLThlMjMtNTExNTViYjAyZGQyNjM3MzA3MDM0MDE0NTM1ODY1" id="snipcart"></script>
             <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+            <link type="text/css" href="mysnip.css" rel="stylesheet /"></link>
         </Head>
         <div className='index' style={{height: 'fit-content'}}>
             {/* <PageTitle maintitle='HarpTisha Store ' subtitle='A selection of harps, cds, and preowned music' /> */}

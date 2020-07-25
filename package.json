@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "startdev": "next -p 3006",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start -p $PORT"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "axios": "^0.19.2",
     "next": "9.4.4",
     "react": "16.13.1",

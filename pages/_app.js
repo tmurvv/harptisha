@@ -5,6 +5,7 @@ import React, {useState, useEffect} from 'react';
 
 // internal
 import AppCss from '../src/styles/app.css.js';
+import '../test.css';
 import Banner from '../src/components/Banner';
 import NavBar from '../src/components/NavBar';
 import Footer from '../src/components/Footer';

@@ -71,11 +71,11 @@ function ContactUsForm(props) {
         }
         try {
             // send contactUs inq
-            const res = await axios.post(`https://findaharp-api.herokuapp.com/api/v1/contactform`, contact);
+            const res = await axios.post(`https://findaharp-api-testing.herokuapp.com/api/v1/contactform`, contact);
             resultText.innerText=`Contact form has been sent to Tisha Murvihill.`;
             dispatchResultInfo({type: 'OK'});
         } catch(e) {
-            resultText.innerText=`Something went wrong. Please try again or send an email to harps@findaharp.com. ${e.message}`;
+            resultText.innerText=`Something went wrong. Please check your network connection.`;
             dispatchResultInfo({type: 'tryAgain'});
         }  
         clearForm();

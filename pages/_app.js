@@ -1,13 +1,20 @@
 // import App from 'next/app'
 import Head from 'next/head';
 import React, {useState, useEffect} from 'react';
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
+
 // import * as gtag from '../lib/gtag'
 
 // internal
+import {CartContext} from "../src/contexts/CartContext";
+import {UserContext} from "../src/contexts/UserContext";
+import {CartOpenContext} from "../src/contexts/CartOpenContext";
 import AppCss from '../src/styles/app.css.js';
 import '../test.css';
 import Banner from '../src/components/Banner';
 import NavBar from '../src/components/NavBar';
+import Cart from '../src/components/Cart';
 import Footer from '../src/components/Footer';
 import { branding } from '../src/constants/branding.js';
 //#region For Auth
@@ -16,11 +23,34 @@ import { branding } from '../src/constants/branding.js';
 // import ResetPassword from '../src/components/ResetPassword';
 //#endregion
 
+const promise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY);
+const cartOpenInit = false;
+const cartInit = [];
+const userInit = {
+    id: '',
+    fname: '',
+    lname: '',
+    email: '',
+    phone: '',
+    address: '',
+    address2: '',
+    city: '',
+    state_prov: '',
+    zip_postal: '',
+    country: '',
+    region: '',
+    shippingDifferent: '',
+    paymentType: ''
+}
+
 function MyApp(props) {
     const { Component, pageProps } = props;
     // const [user, setUser] = useState(['Login', '', '', 'miles']); // firstname, lastname, email, distanceunit
     const [windowWidth, setWindowWidth] = useState(0);
     const [navOpen, setNavOpen] = useState(false);
+    const [cart, setCart] = useState(cartInit);
+    const [user, setUser] = useState(userInit);
+    const [cartOpen, setCartOpen] = useState(cartOpenInit);
     
     // Google Analytics
     // useEffect(() => {
@@ -51,13 +81,23 @@ function MyApp(props) {
             <Head>
                 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" />
                 <link rel="icon" href="favicon.ico" sizes="16x16" type="image/png" /> 
+                <script src="https://js.stripe.com/v3/" />
             </Head>
             <Banner />
             {/* Without Auth */}
-            <NavBar mobile={windowWidth<=550} open={navOpen} handleNavOpen={handleNavOpen}/>
-            <Component {...pageProps} />
-            <Footer />
-            <AppCss />
+            <UserContext.Provider value={{user, setUser}}>
+                <CartOpenContext.Provider value={{cartOpen, setCartOpen}}>
+                    <CartContext.Provider value={{cart, setCart}}>
+                        <NavBar mobile={windowWidth<=550} open={navOpen} handleNavOpen={handleNavOpen}/>
+                        <Cart cartopen={cartOpen}/>
+                        <Elements stripe={promise}>
+                            <Component {...pageProps} />
+                        </Elements>
+                        <Footer />
+                        <AppCss />
+                    </CartContext.Provider>
+                </CartOpenContext.Provider>
+            </UserContext.Provider>
             
             {/* With Auth */}
             {/* <UserContext.Provider value={{user, setUser}}>

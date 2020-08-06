@@ -1,5 +1,4 @@
 // packages
-import Head from 'next/head';
 import uuid from 'react-uuid';
 
 // internal
@@ -12,12 +11,6 @@ import StoreCss from '../src/styles/store.css';
 const Store = (props) => {
     return (
         <>
-        <Head>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-            <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="NjgzYTM5MDUtNTQwYy00YmJmLThlMjMtNTExNTViYjAyZGQyNjM3MzA3MDM0MDE0NTM1ODY1" id="snipcart"></script>
-            <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
-            <link type="text/css" href="mysnip.css" rel="stylesheet /"></link>
-        </Head>
         <div className='index' style={{height: 'fit-content'}}>
             {/* <PageTitle maintitle='HarpTisha Store ' subtitle='A selection of harps, cds, and preowned music' /> */}
             <h2 className="product-list-header">Preowned Harps</h2>
@@ -92,21 +85,21 @@ Store.getInitialProps = () => {
                 id: uuid(), 
                 name: "If Brahms Wrote For Harp CD", 
                 price: 15.00, 
-                image: "static/img/cds/IfBrahmsWrote.webp", 
+                image: "img/cds/IfBrahmsWrote.webp", 
                 description: "“Stunning Presentation of the music of Johannes Brahms” - The HarpColumn, Jan. ‘04. 11 Intermezzi and a Rhapsody Arranged and performed by Tisha Murvihill, harp."
             },
             {
                 id: uuid(), 
                 name: "A Quiet Afternoon CD", 
                 price: 15.00, 
-                image: "static/img/cds/QuietAfternoon.webp", 
+                image: "img/cds/QuietAfternoon.webp", 
                 description: "Winner, Instrumental Album of the Year, GMAC. Fourteen beautiful arrangements of some of our most beautiful worship melodies, including: I Exalt Thee; Oh, How He Loves You and Me; Fairest Lord Jesus; As the Deer; Jesus, Name Above All Names."
             },
             {
                 id: uuid(), 
                 name: "Come Just As You Are CD", 
                 price: 15.00, 
-                image: "static/img/cds/ComeJustAs.webp", 
+                image: "img/cds/ComeJustAs.webp", 
                 description: "Nominee, Instrumental Album of the Year, GMAC​​.Come Just As You Are is a follow-up CD to Tisha’s award winning CD, A Quiet Afternoon. The CD features 14 inspirational praise and worship songs including Amazing Grace, Draw Me Close to You, Lord Be Glorified, and You Are My All in All."
             },
         ],  

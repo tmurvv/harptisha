@@ -5,17 +5,18 @@ function ProductCss() {
     return (
         <style jsx="true">{`
             .product {
-                margin: 20px;
+                margin: 30px;
                 width: 45%;
                 text-align: center;
                 max-width: 375px;
             }
             .product__description {
-                height: 90px;
+                height: 140px;
                 overflow-y: auto;
                 text-align: justify;
                 margin-bottom: 25px;
                 padding-right: 5px;
+                width: 97.5%;
             }
             .product__image {
                 height: 265px;

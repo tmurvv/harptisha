@@ -1,4 +1,5 @@
 // packages
+import { useState } from 'react';
 import uuid from 'react-uuid';
 
 // internal
@@ -9,23 +10,36 @@ import IndexCss from '../src/styles/index.css';
 import StoreCss from '../src/styles/store.css';
 
 const Store = (props) => {
+    const [ view, setView ] = useState('harps')
     return (
         <>
         <div className='index' style={{height: 'fit-content'}}>
             {/* <PageTitle maintitle='HarpTisha Store ' subtitle='A selection of harps, cds, and preowned music' /> */}
-            <h2 className="product-list-header">Preowned Harps</h2>
-            <div className="product-list">
-                {props.products_harps.map((product, index) => <Product_Harp product={product} key={index}/>)}
+            <div className='storeButtons flexSB'>
+                <a className="blueFontButton storeButton" href='#harps' style={{textDecoration: 'none', fontSize: '18px'}}>Harps</a>
+                {/* <button href='#music' className="blueFontButton storeButton"><a href='#harps' style={{textDecoration: 'none', fontSize: '18px', color: 'white', width: '100%'}}>Harps</a></button> */}
+                <a className="blueFontButton storeButton" href='#cds' style={{textDecoration: 'none', fontSize: '18px'}}>CDs</a>
+                <a className="blueFontButton storeButton" href='#music' style={{textDecoration: 'none', fontSize: '18px'}}>Music</a>
+            </div>
+            <div id="harps" >
+                <div className="product-list">
+                    {props.products_harps.map((product, index) => <Product_Harp product={product} key={index}/>)}
+                </div>
             </div>
             <img className= 'divider' src="img/purplegrey_tapered_line.png" style={{width: '100%', maxHeight: '7px'}}/>
-            <h2 className="product-list-header">CDs by Tisha Murvihill</h2>
-            <div className="product-list" >
-                {props.products_cds.map((product, index) => <Product product={product} key={index}/>)}
+            <div id="cds" >
+                <h2 className="product-list-header">CDs by Tisha Murvihill</h2>
+                <div className="product-list">
+                    {props.products_cds.map((product, index) => <Product product={product} key={index}/>)}
+                </div>
             </div>
             <img className= 'divider' src="img/purplegrey_tapered_line.png" style={{width: '100%', maxHeight: '7px'}}/>
-            <h2 className="product-list-header">Preowned Music</h2>
-            <div className="product-list" >
-                {props.products_music.map((product, index) => <Product product={product} key={index}/>)}
+            
+            <div id="music" >
+                <h2 className="product-list-header">Preloved Music</h2>
+                <div className="product-list">
+                    {props.products_music.map((product, index) => <Product product={product} key={index}/>)}
+                </div>
             </div>
         </div>
         <IndexCss />
@@ -109,35 +123,35 @@ Store.getInitialProps = () => {
                 name: "Coming Soon", 
                 price: 15.00, 
                 image: "static/img/sheetmusic/placeholder.jpg", 
-                description: "Great Preowned Sheet Music Coming."
+                description: "Great Preowned Sheet Music Coming -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
                 id: uuid(), 
                 name: "Coming Soon", 
                 price: 15.00, 
                 image: "static/img/sheetmusic/placeholder.jpg", 
-                description: "Great Preowned Sheet Music Coming."
+                description: "Great Preowned Sheet Music Coming -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
                 id: uuid(), 
                 name: "Coming Soon", 
                 price: 15.00, 
                 image: "static/img/sheetmusic/placeholder.jpg", 
-                description: "Great Preowned Sheet Music Coming."
+                description: "Great Preowned Sheet Music Coming -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
                 id: uuid(), 
                 name: "Coming Soon", 
                 price: 15.00, 
                 image: "static/img/sheetmusic/placeholder.jpg", 
-                description: "Great Preowned Sheet Music Coming."
+                description: "Great Preowned Sheet Music Coming -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
                 id: uuid(), 
                 name: "Coming Soon", 
                 price: 15.00, 
                 image: "static/img/sheetmusic/placeholder.jpg", 
-                description: "Great Preowned Sheet Music Coming."
+                description: "Great Preowned Sheet Music Coming -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             }
         ]   
     }

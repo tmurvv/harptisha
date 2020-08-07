@@ -66,14 +66,15 @@ function ContactUsFormCSS() {
                 transform: translateY(3.5px);
             }
             .contactForm {
-                padding: 10px;
+                padding: 20px;
                 flex: 6;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 border: 2px solid ${cssVariables.primaryColour};
                 background-color: #ffffff;
-                postion: relative;
+                margin: auto;
+                
             }
             @media only screen and (max-width: 700px) {
                 .contactForm {
@@ -139,6 +140,11 @@ function ContactUsFormCSS() {
             }
             .buttons {
                 margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .button {
+                height: 40px
             }
             #loadingLogin {
                 display: none;

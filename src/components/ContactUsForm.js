@@ -150,14 +150,14 @@ function ContactUsForm(props) {
                     </div>   
                     <div className='buttons'>
                         <button
-                            className='detailButton'
+                            className='button detailButton'
                             type='submit'
                             onClick={handleSubmit} 
                             style={{marginBottom: '0'}}
                         >Submit
                         </button>
                         <button
-                            className={`detailButton detailButton-cancel`}
+                            className={`button detailButton detailButton-cancel`}
                             type='button'
                             onClick={handleSubmit}
                         >Cancel

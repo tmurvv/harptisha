@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import uuid from 'react-uuid';
-import Router from 'next/router';
+import Router, { withRouter } from 'next/router';
 
 import { CartContext } from '../contexts/CartContext';
 import { CartOpenContext } from '../contexts/CartOpenContext';
@@ -39,7 +39,15 @@ function Cart(props) {
                                         <button 
                                             className='redFontButton' 
                                             onClick={e => deleteItem(e, cart, setCart)} 
-                                            dataid={item.id} 
+                                            dataid={item.id}
+                                            style={{
+                                                color: 'white', 
+                                                backgroundColor: 'tomato',
+                                                border: 'none',
+                                                padding: '5px 10px',
+                                                borderRadius: '3px',
+                                                boxShadow: '1.5px 1.5px 1.5px 0px #929191'
+                                             }} 
                                         >
                                             delete
                                         </button>
@@ -89,25 +97,15 @@ function Cart(props) {
         } else {
             return (
                 <>
-                <p className='cartButton' 
-                    onClick={()=>setCartOpen(true)} 
-                    style={{transform: 'translate(-23px, -31px)', fontSize: '24px', fontWeight: '600'}}
-                >
-                    {getNumItems(cart)}
-                </p>
-                <img 
-                    className='cartButton'
-                    src='img/shoppingCart.png' 
-                    onClick={()=>setCartOpen(true)} 
-                    alt='shopping cart'
-                />
+                <div className='cartButton' onClick={()=>setCartOpen(true)}>
+                        <p>{getNumItems(cart)}</p>
+                    <img 
+                        src='img/shoppingCart.png' 
+                        onClick={()=>setCartOpen(true)} 
+                        alt='shopping cart'
+                    />
+                </div>
                 
-                {/* <button 
-                    className='primaryButton cartButton'
-                    onClick={()=>setCartOpen(true)}
-                >
-                    View Cart
-                </button> */}
                 <CartCss />
                 </>
                 )

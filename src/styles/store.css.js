@@ -7,12 +7,14 @@ function StoreCss() {
             h2 {
                 width: fit-content;
                 margin: auto;
+                font-size: 20px;
             }
             .product-list {
                 display: flex; 
                 flex-wrap: wrap; 
                 padding: 50px;
-                padding-top: 25px
+                padding-top: 25px;
+                justify-content: center;
             }
             .product-list-header {
                 padding: 10px 25px;
@@ -29,6 +31,27 @@ function StoreCss() {
             }
             .copy {
                 font-size: 12px;
+            }
+            .storeButtons {
+                width: 90%;
+                margin: 50px auto 0;
+                justify-content: space-around;
+            }
+            .storeButton {
+                margin:10px;
+                width: 25%;
+                background: #6A75AA;
+                font-family: Lato;
+                color: #ffffff;
+                border-radius: 0 0 4px 4px;
+                border: 0;
+                padding: 12px 16px;
+                font-size: 16px;
+                font-weight: 600;
+                cursor: pointer;
+                display: block;
+                transition: all 0.2s ease;
+                box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
             }
         `}
         </style>

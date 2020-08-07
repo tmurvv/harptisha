@@ -114,6 +114,9 @@ function AppCss() {
                 text-decoration: 'none'; 
                 border: 'none'; 
                 font-size: '14px';
+                border-radius: 3px;
+                transition: all 0.2s ease;
+                box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
             }
             .detailButton {
                 margin: 25px auto;
@@ -126,6 +129,8 @@ function AppCss() {
                 border-color: none;
                 -webkit-box-shadow: 1.5px 1.5px 1.5px 0px #929191;
                 box-shadow: 1.5px 1.5px 1.5px 0px #929191;
+                color: black;
+                font-weight: 500;
             }
             .detailButton:active {
                 box-shadow: none;
@@ -198,21 +203,7 @@ function AppCss() {
                 margin-bottom: 32px;
             }
             /* Buttons and links */
-            button {
-                background: #5469d4;
-                font-family: Arial, sans-serif;
-                color: #ffffff;
-                border-radius: 0 0 4px 4px;
-                border: 0;
-                padding: 12px 16px;
-                font-size: 16px;
-                font-weight: 600;
-                cursor: pointer;
-                display: block;
-                transition: all 0.2s ease;
-                box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
-                width: 100%;
-            }
+           
             button:hover {
                 filter: contrast(115%);
             }

@@ -95,10 +95,29 @@ function CartCss() {
         .cartButton {
             float: right;
             cursor: pointer;
+            margin: 10px;
+            display: flex;
+        }
+        .cartButton img {
             height: 45px;
             width: unset;
         }
-        
+        .cartButton p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+            font-weight: 600;
+            font-size: 24px;
+            transform: translate(35px, -5px);
+        }
+        .redFontButton {
+            background-color: 'white';
+            outline: 'none';
+            color: 'tomato';
+            text-decoration: 'underline';
+            border: 'none';
+            font-size: '12px';
+            font-style: 'italic';
+        }
         /*********************************************/
         
         ul { margin: 0; padding: 0 }

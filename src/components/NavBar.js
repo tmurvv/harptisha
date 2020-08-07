@@ -40,7 +40,7 @@ export default function NavBar(props) {
                         <a style={{textDecoration: 'none'}} onClick={props.handleNavOpen}>Harp Lessons</a>
                     </Link>
                     <Link href='/Store' as='/Store'>
-                        <a style={{textDecoration: 'none'}} onClick={props.handleNavOpen}>Harps, Cds, Music for Sale</a>
+                        <a style={{textDecoration: 'none'}} onClick={props.handleNavOpen}>Harps, CDs, Music for Sale</a>
                     </Link>
                     <Link href='/About' as='/About'>
                         <a style={{textDecoration: 'none'}} onClick={props.handleNavOpen}>About</a>

@@ -14,11 +14,11 @@ function StoreCss() {
                 flex-wrap: wrap; 
                 padding: 50px;
                 padding-top: 25px;
-                justify-content: center;
+                justify-content: space-between;
             }
             .product-list-header {
                 padding: 10px 25px;
-                background-color: ${cssVariables.tertiaryColour};
+                background-color: ${cssVariables.greyColour};
                 color: white;
                 border-radius: 3px;
             }
@@ -27,7 +27,7 @@ function StoreCss() {
             }
             .flexSB {
                 display: flex;
-                justify-content: center
+                justify-content: space-between;
             }
             .copy {
                 font-size: 12px;
@@ -35,7 +35,6 @@ function StoreCss() {
             .storeButtons {
                 width: 90%;
                 margin: 50px auto 0;
-                justify-content: space-around;
             }
             .storeButton {
                 margin:10px;

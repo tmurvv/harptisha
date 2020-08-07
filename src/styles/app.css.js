@@ -4,6 +4,42 @@ import { cssVariables } from '../constants/cssVariables';
 function AppCss() {
     return (
         <style jsx="true">{`
+        button,
+        button>a {
+            display: inline-block;
+            border: none;
+            padding: 1rem 2rem;
+            margin: 0;
+            text-decoration: none;
+            background: ${cssVariables.tertiaryColour};
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 1rem;
+            cursor: pointer;
+            text-align: center;
+            transition: background 250ms ease-in-out, 
+                        transform 150ms ease;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            border-radius: 3px;
+        }
+        
+        button:hover,
+        button:focus, 
+        button>a:hover,
+        button>a:focus {
+            background: ${cssVariables.tertiaryColourDark};
+        }
+        
+        button:focus,
+        button>a:focus {
+            outline: none;
+        }
+        
+        button:active, 
+        button>a:active {
+            transform: scale(0.99);
+        }
             /* non-Stripe CSS */
             body {
                 font-family: "Lato", sans-serif;
@@ -20,7 +56,7 @@ function AppCss() {
             .bg-secondary {
                 background-color: #CDB095;
             }
-            .bg-tertiary {
+            .bg-grey {
                 background-color: #F5141A;
             }
             .fg-primary {
@@ -32,7 +68,7 @@ function AppCss() {
             .fg-secondary {
                 color: #CDB095;
             }
-            .fg-tertiary {
+            .fg-grey {
                 color: #F5141A;
             }  
             body {
@@ -120,7 +156,7 @@ function AppCss() {
             }
             .detailButton {
                 margin: 25px auto;
-                background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.tertiaryColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.tertiaryColourLight} 87%);
+                background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.greyColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.greyColourLight} 87%);
                 padding: 5px 10px;
                 font-size: 16px;
                 border-radius: 3px;

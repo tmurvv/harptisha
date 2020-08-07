@@ -47,7 +47,7 @@ function ContactCSS() {
                 width: 100%;
             }
             .contactContainer a {
-                color: {$tertiaryColour};
+                color: {$greyColour};
                 font-size: 18px;
             }
             .peopleContainer {

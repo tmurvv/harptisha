@@ -37,17 +37,13 @@ function Cart(props) {
                                         <h1>{item.description}</h1>
                                         <h2>In Stock - Ships Immediately</h2>
                                         <button 
-                                            className='redFontButton' 
                                             onClick={e => deleteItem(e, cart, setCart)} 
                                             dataid={item.id}
                                             style={{
-                                                color: 'white', 
-                                                backgroundColor: 'tomato',
-                                                border: 'none',
-                                                padding: '5px 10px',
-                                                borderRadius: '3px',
-                                                boxShadow: '1.5px 1.5px 1.5px 0px #929191'
-                                             }} 
+                                                background: 'tomato',
+                                                padding: '3px 7px',
+                                                fontSize: '12px'
+                                            }}
                                         >
                                             delete
                                         </button>
@@ -74,8 +70,6 @@ function Cart(props) {
                     <h4>Shipping and Tax <br/> calculated at checkout. </h4>
                     
                     <button 
-                        className='primaryButton'
-                        style={{marginLeft: '8px', marginBottom: '25px'}}
                         onClick={()=>{setCartOpen(false);Router.push('/Checkout');}}
                     >
                         Checkout
@@ -84,11 +78,10 @@ function Cart(props) {
                         width: 'fit-content',
                         paddingTop: '20px',
                         margin: 'auto',
-                        marginLeft: '17px',
                         boxShadow: 'none',
                         borderRadius: 'none'
                     }}>
-                        <input type='checkbox' />This is a Gift
+                        <input type='checkbox' style={{margin: '0'}}/>This is a Gift
                     </form>
                 </div>
                 <CartCss />

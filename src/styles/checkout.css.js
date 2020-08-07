@@ -131,21 +131,6 @@ function CheckoutCss() {
             margin: 0 0 0 20px;
         }
         
-        .order .redbutton
-        {
-            background-color: #D6544E;
-            padding: 13px 30px;
-            font-size: 14px;
-            font-weight: 100;
-            margin-top: 25px;
-        }
-        
-        .order .redbutton:hover
-        {
-            background-color: #000;
-            border: none;
-        }
-        
         textarea
         {
             height: 120px;
@@ -489,18 +474,7 @@ function CheckoutCss() {
             line-height: 56px;
             vertical-align: middle;
         }
-        
-        a
-        {
-            color: #D6544E;
-            font-size: 13px;
-            text-decoration: none;
-        }
-        
-        a:hover
-        {
-            color: #000;
-        }
+       
         th, td {
             padding: 5px;
         }
@@ -640,6 +614,14 @@ function CheckoutCss() {
         {
             line-height: 40px;
             color: #000;
+        }
+        .orderButton {
+            margin: auto;
+            background: #1ABC9C;
+        }
+        .orderButton:focus,
+        .orderButton:hover {
+            background: #0eab8c;
         }
         `}
         </style>

@@ -6,7 +6,7 @@ function NavBarCss() {
     return (
         <style jsx="true">{`
             .navBarOuter {
-                background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.tertiaryColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.secondaryColourLight} 87%);
+                background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.greyColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.secondaryColourLight} 87%);
                 height: 40px;
             }
             @media only screen and (max-width: 550px) {
@@ -30,7 +30,7 @@ function NavBarCss() {
                     height: 140px;
                     padding: 30px 10px 0px;
                     border-radius: 3px;
-                    background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.tertiaryColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.tertiaryColourLight} 87%);
+                    background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.greyColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.greyColourLight} 87%);
                     z-index: 6000;
                 }
                 .navLinks a {

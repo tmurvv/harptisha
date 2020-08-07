@@ -37,9 +37,7 @@ function CartCss() {
             height: 100%;
             background-color: #ECF0F1;
             text-align: center;
-            padding-right: 15px;
-            padding-top: 15px;
-            padding-bottom: 15px;
+            padding: 15px;
         }
         
         .items h1 {
@@ -108,15 +106,6 @@ function CartCss() {
             font-weight: 600;
             font-size: 24px;
             transform: translate(35px, -5px);
-        }
-        .redFontButton {
-            background-color: 'white';
-            outline: 'none';
-            color: 'tomato';
-            text-decoration: 'underline';
-            border: 'none';
-            font-size: '12px';
-            font-style: 'italic';
         }
         /*********************************************/
         
@@ -234,15 +223,6 @@ function CartCss() {
             width: 100%;
             font-weight: bold;
             cursor: pointer;
-        }
-        .redFontButton {
-            background-color: 'white';
-            outline: 'none';
-            color:'tomato';
-            text-decoration: 'underline'; 
-            border: 'none'; 
-            font-size: '12px';
-            font-style: 'italic';
         }
         .price { 
             float: left;

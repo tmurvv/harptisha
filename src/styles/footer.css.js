@@ -6,7 +6,7 @@ function FooterCss() {
         <style jsx="true">{`
             .footer {
                 // background-color: ${cssVariables.primaryColourDark};
-                background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.tertiaryColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.secondaryColourLight} 87%);
+                background-image: linear-gradient(340deg, ${cssVariables.secondaryColourLight} 20%, ${cssVariables.greyColourLight} 58%, ${cssVariables.primaryColourWhite} 74%, ${cssVariables.secondaryColourLight} 87%);
                 color: ${cssVariables.primaryColourDark};
                 height: 125px;
                 font-size: 20px;
@@ -24,7 +24,7 @@ function FooterCss() {
             }
             .flexSB {
                 display: flex;
-                justify-content: center
+                justify-content: space-between;
             }
             .copy {
                 font-size: 12px;

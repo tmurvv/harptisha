@@ -5,7 +5,7 @@ function IndexCss() {
     return (
         <style jsx="true">{`
             a {
-              color: ${cssVariables.tertiaryColourDark};
+              color: ${cssVariables.greyColourDark};
               text-decoration: underline;
             }
             .index {

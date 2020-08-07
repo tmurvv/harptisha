@@ -15,13 +15,15 @@ const Store = (props) => {
         <>
         <div className='index' style={{height: 'fit-content'}}>
             {/* <PageTitle maintitle='HarpTisha Store ' subtitle='A selection of harps, cds, and preowned music' /> */}
+            
             <div className='storeButtons flexSB'>
-                <a className="blueFontButton storeButton" href='#harps' style={{textDecoration: 'none', fontSize: '18px'}}>Harps</a>
-                {/* <button href='#music' className="blueFontButton storeButton"><a href='#harps' style={{textDecoration: 'none', fontSize: '18px', color: 'white', width: '100%'}}>Harps</a></button> */}
-                <a className="blueFontButton storeButton" href='#cds' style={{textDecoration: 'none', fontSize: '18px'}}>CDs</a>
-                <a className="blueFontButton storeButton" href='#music' style={{textDecoration: 'none', fontSize: '18px'}}>Music</a>
+                <button className="blueButton storeButton" style={{padding: '0'}}><a href='#harps' style={{width: '75%'}}>Harps</a></button>
+                {/* <button href='#music' className="blueButton storeButton"><a href='#harps' style={{textDecoration: 'none', fontSize: '18px', color: 'white', width: '100%'}}>Harps</a></button> */}
+                <button className="blueButton storeButton" style={{padding: '0'}}><a href='#cds' style={{width: '75%'}}>CDs</a></button>
+                <button className="blueButton storeButton" style={{padding: '0'}}><a href='#music' style={{width: '75%'}}>Music</a></button>
             </div>
             <div id="harps" >
+                <h2 className="product-list-header" style={{marginTop: '40px', marginBottom: '-20px'}}>Used Harps</h2>
                 <div className="product-list">
                     {props.products_harps.map((product, index) => <Product_Harp product={product} key={index}/>)}
                 </div>
@@ -55,42 +57,42 @@ Store.getInitialProps = () => {
                 id: uuid(), 
                 name: "Dusty Strings FH36B", 
                 price: 4300.00, 
-                image: "static/img/harps/orrDustyStringsFH36B.jpg", 
+                image: "img/harps/orrDustyStringsFH36B.jpg", 
                 description: "Can ship to US or Canada. Contact Tisha to hear and see this extrodinary harp over Zoom/Skype/Facetime. This is an outstanding instrument. Rarely have I heard such a beautiful, even, present sound in an instrument. Built in 1996."
             },
             {
                 id: uuid(), 
                 name: "Markwood Wire Harp", 
                 price: 1600.00, 
-                image: "static/img/harps/markwood29standing.jpg", 
+                image: "img/harps/markwood29standing.jpg", 
                 description: "Markwood 29-string bronze wire harp. Can ship to US or Canada. Contact Tisha to see and hear this harp played over Zoom/Skype/Facetime. Take home a classic! Built by Mark Bolles in 1988. The sound of a wire-strung harp takes you immediately to a different time and place. Beautiful cover with real sheepswool lining. Blade levers."
             },
             {
                 id: uuid(), 
                 name: "Pilgrim Ashdown Harp", 
                 price: 1950.00, 
-                image: "static/img/harps/pilgrim.jpg", 
+                image: "img/harps/pilgrim.jpg", 
                 description: "Can ship to US or Canada. 1994 Pilgrim Ashdown harp made in Wales. Price reduced due to structural crack in neck. Purchase at your own risk. Beautiful, mellow, soft, sweet tone. Pilgrim levers have a reversed technology, down is engaged, up is disengaged."
             },
             {
                 id: uuid(), 
                 name: "Pierpont Irish Style 29 strings", 
                 price: 1400.00, 
-                image: "static/img/harps/pierpont.jpg", 
+                image: "img/harps/pierpont.jpg", 
                 description: "Can ship to US or Canada. Contact seller to see and hear this harp played over Zoom/Skype/Facetime. Nice, big sound. Tuning key, cover, legs included. Legs added by first owner. An excellent instrument!"
             },
             {
                 id: uuid(), 
                 name: "Lindeman Semi-Grand", 
                 price: 1500.00, 
-                image: "static/img/harps/Lindeman.jpg", 
+                image: "img/harps/Lindeman.jpg", 
                 description: "A fixer-upper. This harp is not playable. Can ship to US or Canada. Contact seller to see this historically important harp over Zoom/Skype/Facetime. Gold is flaked off in a few places. Extreme cracking in the sound-board. Can not be pulled up to pitch. Pedals work okay. 44 Strings."
             },
             {
                 id: uuid(), 
                 name: "Zebrawood 25-string Lap Harp", 
                 price: 450.00, 
-                image: "static/img/harps/unknownwinset.jpg", 
+                image: "img/harps/unknownwinset.jpg", 
                 description: "A beautiful sounding lap-harp. Significant crack in the neck (see inset). Purchase at your own risk. Partially levered (Cs, Fs). Maker unknown."
             }
         ],   
@@ -122,35 +124,35 @@ Store.getInitialProps = () => {
                 id: uuid(), 
                 name: "Coming Soon", 
                 price: 15.00, 
-                image: "static/img/sheetmusic/placeholder.jpg", 
+                image: "img/sheetmusic/placeholder.jpg", 
                 description: "Great Preowned Sheet Music Coming -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
                 id: uuid(), 
                 name: "Coming Soon", 
                 price: 15.00, 
-                image: "static/img/sheetmusic/placeholder.jpg", 
+                image: "img/sheetmusic/placeholder.jpg", 
                 description: "Great Preowned Sheet Music Coming -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
                 id: uuid(), 
                 name: "Coming Soon", 
                 price: 15.00, 
-                image: "static/img/sheetmusic/placeholder.jpg", 
+                image: "img/sheetmusic/placeholder.jpg", 
                 description: "Great Preowned Sheet Music Coming -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
                 id: uuid(), 
                 name: "Coming Soon", 
                 price: 15.00, 
-                image: "static/img/sheetmusic/placeholder.jpg", 
+                image: "img/sheetmusic/placeholder.jpg", 
                 description: "Great Preowned Sheet Music Coming -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             },
             {
                 id: uuid(), 
                 name: "Coming Soon", 
                 price: 15.00, 
-                image: "static/img/sheetmusic/placeholder.jpg", 
+                image: "img/sheetmusic/placeholder.jpg", 
                 description: "Great Preowned Sheet Music Coming -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             }
         ]   

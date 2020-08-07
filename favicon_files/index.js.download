@@ -711,9 +711,9 @@ $RefreshReg$(_c, "PageTitle");
   secondaryColour: '#ECDFB7',
   secondaryColourLight: '#efece4',
   secondaryColourDark: '#3B271D',
-  tertiaryColour: '#7D7D8C',
-  tertiaryColourLight: '#A2A3AC',
-  tertiaryColourDark: '#464759'
+  greyColour: '#7D7D8C',
+  greyColourLight: '#A2A3AC',
+  greyColourDark: '#464759'
 };
 
 ;

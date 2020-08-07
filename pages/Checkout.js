@@ -215,7 +215,17 @@ function Checkout(props) {
                                     <legend><img id='paypallogo' src="img/paypal.png" alt="PayPal Logo" className="paypal" /></legend>
                                 </div>
                             </div> */}
-                            <button type="button" name="submit" onClick={handleSubmit} value="Place Order" className="redbutton">Place Order</button>
+                            <div style={{display: 'flex'}}>
+                                <button 
+                                    className="orderButton"
+                                    type="button" 
+                                    name="submit" 
+                                    onClick={handleSubmit} 
+                                    value="Place Order" 
+                                    style={{margin: 'auto'}}
+                                >Place Order</button>
+                            </div>
+                            
                         </div>
                         <CheckoutCss />
                     </form>

@@ -148,8 +148,8 @@ function ContactUsFormCSS() {
             }
             #loadingLogin {
                 display: none;
-                color: ${cssVariables.tertiaryColour};
-                border: 2px solid ${cssVariables.tertiaryColour};
+                color: ${cssVariables.greyColour};
+                border: 2px solid ${cssVariables.greyColour};
                 background-color: #fff;
                 padding: 30px;
                 border-radius: 3px;

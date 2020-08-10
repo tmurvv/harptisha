@@ -22,19 +22,22 @@ function AppCss() {
             -webkit-appearance: none;
             -moz-appearance: none;
             border-radius: 3px;
+            opacity: .8;
         }
         
         button:hover,
         button:focus, 
         button>a:hover,
         button>a:focus {
-            background: ${cssVariables.tertiaryColourDark};
-        }
-        
-        button:focus,
-        button>a:focus {
+            opacity: 1;
             outline: none;
         }
+        
+        // button>a:focus,
+        // button>a:focus {
+        //     outline: none;
+        //     opacity: 1;
+        // }
         
         button:active, 
         button>a:active {

@@ -15,6 +15,7 @@ function StoreCss() {
                 padding: 50px;
                 padding-top: 25px;
                 justify-content: space-between;
+                position: relative;
             }
             .product-list-header {
                 padding: 10px 25px;
@@ -51,6 +52,13 @@ function StoreCss() {
                 display: block;
                 transition: all 0.2s ease;
                 box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+            }
+            .harpContact {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 5000;
             }
         `}
         </style>

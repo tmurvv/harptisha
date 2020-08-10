@@ -6,38 +6,50 @@ import uuid from 'react-uuid';
 import Product from '../src/components/Product';
 import Product_Harp from '../src/components/Product_Harp';
 import PageTitle from '../src/components/PageTitle';
+import ContactUsForm from '../src/components/ContactUsForm';
 import IndexCss from '../src/styles/index.css';
 import StoreCss from '../src/styles/store.css';
 
 const Store = (props) => {
     const [ view, setView ] = useState('harps')
+    const [ contactUsForm, setContactUsForm ] = useState(false);
+    const [ harpName, setHarpName ] = useState(false);
+    
+    function handleClick(e) {
+        console.log(e.target.getAttribute('data-id'))
+        console.log(contactUsForm)
+        setContactUsForm(true);
+        setHarpName(e.target.getAttribute('data-id'))
+    }
+    function reset() {setContactUsForm(false)}
+
     return (
         <>
         <div className='index' style={{height: 'fit-content'}}>
-            {/* <PageTitle maintitle='HarpTisha Store ' subtitle='A selection of harps, cds, and preowned music' /> */}
-            
-            <div className='storeButtons flexSB'>
+            <div className='harpContact' hidden={!contactUsForm}>
+                <ContactUsForm harp={harpName} reset={reset} closeButton={true}/>
+            </div>
+            <div className='storeButtons flexSB' style={{marginBottom: '40px'}}>
                 <button className="blueButton storeButton" style={{padding: '0'}}><a href='#harps' style={{width: '75%'}}>Harps</a></button>
-                {/* <button href='#music' className="blueButton storeButton"><a href='#harps' style={{textDecoration: 'none', fontSize: '18px', color: 'white', width: '100%'}}>Harps</a></button> */}
                 <button className="blueButton storeButton" style={{padding: '0'}}><a href='#cds' style={{width: '75%'}}>CDs</a></button>
                 <button className="blueButton storeButton" style={{padding: '0'}}><a href='#music' style={{width: '75%'}}>Music</a></button>
             </div>
+            <img className= 'divider' src="img/purplegrey_tapered_line.png" style={{width: '100%', maxHeight: '7px'}}/>
             <div id="harps" >
-                <h2 className="product-list-header" style={{marginTop: '40px', marginBottom: '-20px'}}>Used Harps</h2>
+                <h2 className="product-list-header" style={{marginBottom: '-20px'}}>Used Harps</h2>
                 <div className="product-list">
-                    {props.products_harps.map((product, index) => <Product_Harp product={product} key={index}/>)}
+                    {props.products_harps.map((product, index) => <Product_Harp product={product} key={index} handleClick={handleClick}/>)}
                 </div>
             </div>
-            <img className= 'divider' src="img/purplegrey_tapered_line.png" style={{width: '100%', maxHeight: '7px'}}/>
-            <div id="cds" >
+            <img id="cds" className= 'divider' src="img/purplegrey_tapered_line.png" style={{width: '100%', maxHeight: '7px'}}/>
+            <div >
                 <h2 className="product-list-header">CDs by Tisha Murvihill</h2>
                 <div className="product-list">
                     {props.products_cds.map((product, index) => <Product product={product} key={index}/>)}
                 </div>
             </div>
-            <img className= 'divider' src="img/purplegrey_tapered_line.png" style={{width: '100%', maxHeight: '7px'}}/>
-            
-            <div id="music" >
+            <img  id="music"className= 'divider' src="img/purplegrey_tapered_line.png" style={{width: '100%', maxHeight: '7px'}}/>
+            <div>
                 <h2 className="product-list-header">Preloved Music</h2>
                 <div className="product-list">
                     {props.products_music.map((product, index) => <Product product={product} key={index}/>)}
@@ -56,21 +68,21 @@ Store.getInitialProps = () => {
             {
                 id: uuid(), 
                 name: "Dusty Strings FH36B", 
-                price: 4300.00, 
+                price: 3200.00, 
                 image: "img/harps/orrDustyStringsFH36B.jpg", 
                 description: "Can ship to US or Canada. Contact Tisha to hear and see this extrodinary harp over Zoom/Skype/Facetime. This is an outstanding instrument. Rarely have I heard such a beautiful, even, present sound in an instrument. Built in 1996."
             },
             {
                 id: uuid(), 
                 name: "Markwood Wire Harp", 
-                price: 1600.00, 
+                price: 1200.00, 
                 image: "img/harps/markwood29standing.jpg", 
                 description: "Markwood 29-string bronze wire harp. Can ship to US or Canada. Contact Tisha to see and hear this harp played over Zoom/Skype/Facetime. Take home a classic! Built by Mark Bolles in 1988. The sound of a wire-strung harp takes you immediately to a different time and place. Beautiful cover with real sheepswool lining. Blade levers."
             },
             {
                 id: uuid(), 
                 name: "Pilgrim Ashdown Harp", 
-                price: 1950.00, 
+                price: 1850.00, 
                 image: "img/harps/pilgrim.jpg", 
                 description: "Can ship to US or Canada. 1994 Pilgrim Ashdown harp made in Wales. Price reduced due to structural crack in neck. Purchase at your own risk. Beautiful, mellow, soft, sweet tone. Pilgrim levers have a reversed technology, down is engaged, up is disengaged."
             },
@@ -84,7 +96,7 @@ Store.getInitialProps = () => {
             {
                 id: uuid(), 
                 name: "Lindeman Semi-Grand", 
-                price: 1500.00, 
+                price: 950.00, 
                 image: "img/harps/Lindeman.jpg", 
                 description: "A fixer-upper. This harp is not playable. Can ship to US or Canada. Contact seller to see this historically important harp over Zoom/Skype/Facetime. Gold is flaked off in a few places. Extreme cracking in the sound-board. Can not be pulled up to pitch. Pedals work okay. 44 Strings."
             },

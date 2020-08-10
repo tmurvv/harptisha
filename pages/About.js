@@ -15,8 +15,17 @@ export default function About() {
             <div className='index'>
                 <PageTitle maintitle={branding.additionalPageTwo} subtitle='' />
                 <section class="about" id="about">
-                    <div class="about__container">
+                    <div class="about__container" style={{padding: '0 40px 40px'}}>
                         <div class="about__container--thisWebsite">
+                            <img 
+                                src='img/MurvHeadShot.jpg' 
+                                style={{
+                                    height: '500px', 
+                                    float: 'right',
+                                    margin: '25px',
+                                    marginRight: '0'
+                                }}
+                                alt='Tisha Murvihill in front of concert harp.' />
                             <h2>About Tisha Murvihill</h2>
                             <p>“Magical,” “Superb,” “Virtuoso,” “Outstanding”; these are the words newspapers such as the Calgary
                                 Herald and the Miami Herald have used to describe award-winning harpist Tisha Murvihill, Principal

@@ -62,7 +62,8 @@ function ContactUsFormCSS() {
                 text-align:center;
             }
             label {
-                font-family: 'Metropolis Extra Bold';
+                font-family: 'Avenir';
+                font-family: 'avenir';
                 transform: translateY(3.5px);
             }
             .contactForm {
@@ -74,7 +75,8 @@ function ContactUsFormCSS() {
                 border: 2px solid ${cssVariables.primaryColour};
                 background-color: #ffffff;
                 margin: auto;
-                
+                width: 700px;
+                z-index: 1000;
             }
             @media only screen and (max-width: 700px) {
                 .contactForm {
@@ -114,8 +116,8 @@ function ContactUsFormCSS() {
                 text-align: right;
                 margin-right: 20px;
                 vertical-align: -7px;
-                font-size: 14px;
-                font-family: 'Metropolis Extra Bold';
+                font-size: 16px;
+                font-family: 'lato';
                 font-weight: 800;
                 color: #000000;
                 max-width: 85px;
@@ -129,7 +131,6 @@ function ContactUsFormCSS() {
                 border-right: none;
                 border-bottom: 1px solid #bbbbbb;
             }
-            
             textarea {
                 background-color: transparent;
                 flex: 7.5;

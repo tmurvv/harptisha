@@ -74,21 +74,24 @@ function ContactUsForm(props) {
             const res = await axios.post(`https://findaharp-api-testing.herokuapp.com/api/v1/contactform`, contact);
             resultText.innerText=`Contact form has been sent to Tisha Murvihill.`;
             dispatchResultInfo({type: 'OK'});
+            
         } catch(e) {
             resultText.innerText=`Something went wrong. Please check your network connection.`;
             dispatchResultInfo({type: 'tryAgain'});
-        }  
-        clearForm();
+        } 
     }
     function resetResults() {
         document.querySelector('#loadingLoginText').innerText='';
         dispatchResultInfo({type: 'initial'});
+        clearForm();
     }
    return (
         <>  
             <div className='contactFormContainer'>
-                <form className='contactForm'> 
-                    <h4>Contact Tisha About {props.harp}</h4>
+                <form className='contactForm' style={{fontFamily: 'Lato'}}> 
+                    {props.closeButton?<img src='img/close.png' style={{width: '15px', height: '15px', margin: '10px'}} alt='close window' onClick={()=>props.reset()} />:''}
+                    <h3 style={{fontFamily: 'lato', fontSize: '28px', marginBottom: '15px'}}>Contact Tisha Murvihill</h3>
+                    {props.harp?`about ${props.harp}`:''}
                     <div id="loadingLogin" style={{display: resultInfo.resultContainer}}>
                         <img id='loadingLoginImg' style={{display: resultInfo.resultImg}} src='/img/spinner.gif' alt='loading spinner' />
                         <p id="loadingLoginText"></p>
@@ -102,9 +105,10 @@ function ContactUsForm(props) {
                             >OK</button>
                             <button 
                                 id='loadingLoginTryAgain' 
+                                data-id='loadingLoginTryAgain'
                                 type='button' 
                                 className='submit-btn submit-btn-tryAgain' 
-                                onClick={resetResults}
+                                onClick={()=>resetResults()}
                                 style={{display: resultInfo.resultTryAgainButton, marginLeft: resultInfo.tryAgainMarginLeft}}
                             >Try Again</button>
                         </div>
@@ -159,7 +163,7 @@ function ContactUsForm(props) {
                         <button
                             className={`button detailButton detailButton-cancel`}
                             type='button'
-                            onClick={handleSubmit}
+                            onClick={()=>{clearForm();resetResults();}}
                         >Cancel
                         </button>
                     </div>         
